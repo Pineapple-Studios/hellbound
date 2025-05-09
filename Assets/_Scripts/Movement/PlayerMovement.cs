@@ -8,50 +8,53 @@ public class PlayerMovement : MonoBehaviour
     [Header("Input")]
     [SerializeField] private InputActionAsset inputActions;
 
-    private InputAction movementAction;
-    private InputAction jumpAction;
+    private InputAction _movementAction;
+    private InputAction _jumpAction;
 
+    [Space(10)]
     [Header("Attributes")]
     [SerializeField] private float moveSpeed;
     [SerializeField] private float jump;
     private float _horizontal;
 
+    [Space(10)]
     [Header("Ground Check")]
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    [Space(10)]
     [Header("Coyote Time")]
     [SerializeField] private float coyoteTime;
-    private float coyoteTimeCounter;
+    private float _coyoteTimeCounter;
 
     private void Awake()
     {
         if (Instance == null) Instance = this;
 
         var playerMap = inputActions.FindActionMap("Player");
-        movementAction = playerMap.FindAction("Movement");
-        jumpAction = playerMap.FindAction("Jump");
+        _movementAction = playerMap.FindAction("Movement");
+        _jumpAction = playerMap.FindAction("Jump");
     }
 
     private void OnEnable()
     {
         inputActions.FindActionMap("Player").Enable();
 
-        movementAction.performed += OnMove;
-        movementAction.canceled += OnMove;
+        _movementAction.performed += OnMove;
+        _movementAction.canceled += OnMove;
 
-        jumpAction.performed += OnJump;
-        jumpAction.canceled += OnJump;
+        _jumpAction.performed += OnJump;
+        _jumpAction.canceled += OnJump;
     }
 
     private void OnDisable()
     {
-        movementAction.performed -= OnMove;
-        movementAction.canceled -= OnMove;
+        _movementAction.performed -= OnMove;
+        _movementAction.canceled -= OnMove;
 
-        jumpAction.performed -= OnJump;
-        jumpAction.canceled -= OnJump;
+        _jumpAction.performed -= OnJump;
+        _jumpAction.canceled -= OnJump;
 
         inputActions.FindActionMap("Player").Disable();
     }
@@ -62,14 +65,14 @@ public class PlayerMovement : MonoBehaviour
 
         if (_IsGrounded())
         {
-            coyoteTimeCounter = coyoteTime;
+            _coyoteTimeCounter = coyoteTime;
         }
         else
         {
-            coyoteTimeCounter -= Time.deltaTime;
+            _coyoteTimeCounter -= Time.deltaTime;
         }
 
-        Debug.Log($"Grounded: {_IsGrounded()} | CoyoteTime: {coyoteTimeCounter}");
+        Debug.Log($"Grounded: {_IsGrounded()} | CoyoteTime: {_coyoteTimeCounter}");
     }
 
     private void OnMove(InputAction.CallbackContext context)
@@ -86,10 +89,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnJump(InputAction.CallbackContext context)
     {
-        if (context.performed && coyoteTimeCounter > 0f)
+        if (context.performed && _coyoteTimeCounter > 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jump);
-            coyoteTimeCounter = 0f;
+            _coyoteTimeCounter = 0f;
         }
 
         if (context.canceled && rb.linearVelocity.y > 0f)

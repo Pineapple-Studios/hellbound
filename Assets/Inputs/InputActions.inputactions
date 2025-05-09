@@ -22,6 +22,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "c1825695-956c-41f0-9be5-9e9d66fefbd7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -123,6 +132,28 @@
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0231c2ae-dec9-4976-b328-0fbe7ce16fbf",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0111b58-a239-4870-b9ac-2723ba566283",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -131,7 +162,7 @@
             "id": "99567bf9-d386-408c-8bec-df2ba5cb24bc",
             "actions": [
                 {
-                    "name": "Confirm",
+                    "name": "Submit",
                     "type": "Button",
                     "id": "98eb6089-c2cf-467b-bb1a-67453100e236",
                     "expectedControlType": "",
@@ -149,13 +180,22 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Move",
-                    "type": "Button",
-                    "id": "42a3070a-bc5e-4bef-99c8-4b303ad41b0d",
-                    "expectedControlType": "",
+                    "name": "SwitchTab",
+                    "type": "Value",
+                    "id": "4d5a924e-de46-4c52-b13e-ed8859132028",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Adjust",
+                    "type": "Value",
+                    "id": "78eb359d-38b0-4ae9-adfc-0523cb3cd37c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -188,7 +228,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Confirm",
+                    "action": "Submit",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -199,7 +239,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Confirm",
+                    "action": "Submit",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -210,53 +250,207 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Confirm",
+                    "action": "Submit",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "7ba654be-1e7f-439f-b4d9-f5b480f93f6d",
-                    "path": "<Keyboard>/q",
+                    "name": "1D Axis",
+                    "id": "1a2544e1-963a-4312-9e20-cf63a17ec167",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
+                    "action": "SwitchTab",
+                    "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "90834e9c-4c0f-4a4c-afcd-869e902a850e",
+                    "name": "Negative",
+                    "id": "a92ad060-29a0-4b64-9c3b-a4e1b19669b3",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "SwitchTab",
                     "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Positive",
+                    "id": "459d9c28-3b0e-472f-9e75-1918088bea46",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchTab",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "29631209-0833-4ec7-b3eb-3e55116e1007",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchTab",
+                    "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "45c2d32e-4140-4604-adce-063029d9e4bb",
+                    "name": "Negative",
+                    "id": "874dd380-2373-4319-b5dd-760c69110309",
                     "path": "<Gamepad>/leftTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "SwitchTab",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "12ff641a-2dff-4964-93b9-5087e645fdf4",
+                    "name": "Positive",
+                    "id": "d1e2ad23-9f0b-4022-821d-c922c21a6050",
                     "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "SwitchTab",
                     "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Keyboard",
+                    "id": "c5e60436-c9a0-48c4-9678-ff085244358e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": true,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "d488e073-e8fe-4b7d-8f19-bcf88abccff2",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "bb4cbcae-58c5-4d5c-aff3-4b566b954a4d",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "D-Pad",
+                    "id": "be6a95a3-7f64-4372-b074-fd674e2f031b",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "d2faf12b-6bdf-40b6-b7b8-7b733f6fea5a",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "849f734b-e9b1-4ad0-82fa-979664677331",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Joystick",
+                    "id": "54ea2a0e-e8f0-418c-8723-662436f6dd43",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "3983d6dd-8300-4876-8ca1-f074a3a2f8c9",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "bc3e3cc5-cff5-425e-9d2d-a5cc23d7f0b2",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Arrows",
+                    "id": "df3425d0-f6b4-43e9-9a9d-f80965b248a3",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "9783d27a-dcbf-40e1-b26f-b9e2263cfaf5",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f9b4a7c4-04c9-4103-87af-ef8bb09add1f",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adjust",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
