@@ -11,6 +11,8 @@ public class ForHardcorePlayers : Upgrade
         stats.moveSpeed = stats.maxMoveSpeed;
         stats.Health = stats.minHealth;
 
-        stats.bloquearAumentoDeVida = true; 
+        stats.bloquearAumentoDeVida = true;
+
+        stats.bloquearUpgradeAumentaVida = true;
     }
 }

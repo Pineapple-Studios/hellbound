@@ -7,6 +7,10 @@ public class UpgradeManager : MonoBehaviour
 {
     [SerializeField] GameObject enemy;
 
+    private List<Upgrade> upgradesEspeciaisDisponiveis;
+    private List<Upgrade> upgradesArriscadosDisponiveis;
+
+
     [Header("UI")]
     [SerializeField] GameObject upgradeMenu;
     [SerializeField] UpgradeSlot[] upgradeSlots;
@@ -24,6 +28,9 @@ public class UpgradeManager : MonoBehaviour
 
     private void Start()
     {
+        upgradesEspeciaisDisponiveis = new List<Upgrade>(upgradesEspeciais);
+        upgradesArriscadosDisponiveis = new List<Upgrade>(upgradesArriscados);
+
         UiHandler(upgradeMenu, false);
         faseTerminou = false;
     }
@@ -47,15 +54,21 @@ public class UpgradeManager : MonoBehaviour
 
     public void EscolherUpgrade(int index)
     {
-        upgradesAtuais[index].Aplicar();
+        Upgrade escolhido = upgradesAtuais[index];
+        escolhido.Aplicar();
+
+        // Remove se for especial ou arriscado
+        if (upgradesEspeciaisDisponiveis.Contains(escolhido))
+            upgradesEspeciaisDisponiveis.Remove(escolhido);
+        else if (upgradesArriscadosDisponiveis.Contains(escolhido))
+            upgradesArriscadosDisponiveis.Remove(escolhido);
+
         UiHandler(upgradeMenu, false);
         Time.timeScale = 1f;
 
-        // Troca de cena (carrega próxima fase)
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        UiHandler(enemy, true);
-        UiHandler(upgradeMenu, false);
     }
+
 
     public void RerollUpgrade(int index)
     {
@@ -77,11 +90,31 @@ public class UpgradeManager : MonoBehaviour
         while (opcoes.Count < quantidade)
         {
             float chance = Random.value;
-
             Upgrade novo = null;
-            if (chance <= 0.05f) novo = PegarAleatorio(upgradesEspeciais, opcoes, excluidos);
-            else if (chance <= 0.25f) novo = PegarAleatorio(upgradesArriscados, opcoes, excluidos);
-            else novo = PegarAleatorio(upgradesNormais, opcoes, excluidos);
+
+            if (chance <= 0.05f)
+            {
+                if (upgradesEspeciaisDisponiveis.Count > 0)
+                    novo = PegarAleatorio(upgradesEspeciaisDisponiveis, opcoes, excluidos);
+            }
+            else if (chance <= 0.25f)
+            {
+                if (upgradesArriscadosDisponiveis.Count > 0)
+                    novo = PegarAleatorio(upgradesArriscadosDisponiveis, opcoes, excluidos);
+            }
+            else
+            {
+                List<Upgrade> poolNormais = new List<Upgrade>(upgradesNormais);
+
+                if (PlayerStats.Instance.bloquearUpgradeAumentaVida)
+                {
+                    // Remove especificamente o upgrade "Aumenta Vida"
+                    poolNormais = poolNormais.Where(upg => upg.nome != "Life").ToList();
+                }
+
+                novo = PegarAleatorio(poolNormais, opcoes, excluidos);
+            }
+
 
             if (novo != null)
                 opcoes.Add(novo);
@@ -89,6 +122,7 @@ public class UpgradeManager : MonoBehaviour
 
         return opcoes;
     }
+
 
     private Upgrade PegarAleatorio(List<Upgrade> pool, List<Upgrade> existentes, List<Upgrade> excluidos)
     {

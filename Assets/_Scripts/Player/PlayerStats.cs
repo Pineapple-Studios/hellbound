@@ -4,6 +4,9 @@ public class PlayerStats : MonoBehaviour
 {
     public static PlayerStats Instance;
 
+    public bool bloquearUpgradeAumentaVida = false;
+
+
     [Header("Atributos Atuais")]
     [Header("")]
 
