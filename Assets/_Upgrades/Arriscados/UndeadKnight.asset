@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec75e128cb70bf4a907bf724e1fbf9e, type: 3}
+  m_Name: UndeadKnight
+  m_EditorClassIdentifier: 
+  nome: Undead Knight
+  icone: {fileID: -4735220259101717419, guid: 61ccf0aeeb7823c4bb314f3b938866f6, type: 3}
