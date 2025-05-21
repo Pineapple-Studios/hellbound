@@ -2,13 +2,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.Linq;
+using System.Collections;
 
 public class UpgradeManager : MonoBehaviour
 {
+    public static UpgradeManager Instance;
+
     [SerializeField] GameObject enemy;
 
-    private List<Upgrade> upgradesEspeciaisDisponiveis;
-    private List<Upgrade> upgradesArriscadosDisponiveis;
+    private List<Upgrade> availableSpecialUpgrades;
+    private List<Upgrade> availableRiskyUpgrades;
 
 
     [Header("UI")]
@@ -16,55 +19,59 @@ public class UpgradeManager : MonoBehaviour
     [SerializeField] UpgradeSlot[] upgradeSlots;
 
     [Header("Controle")]
-    public bool faseTerminou = true;
-    public int rerollsDisponiveis = 1;
+    public bool waveEnded = true;
+    public int availableRerolls = 1;
 
     [Header("Upgrades")]
-    public List<Upgrade> upgradesNormais;
-    public List<Upgrade> upgradesEspeciais;
-    public List<Upgrade> upgradesArriscados;
+    public List<Upgrade> normalUpgrades;
+    public List<Upgrade> specialUpgrades;
+    public List<Upgrade> riskyUpgrades;
 
-    private List<Upgrade> upgradesAtuais = new List<Upgrade>();
+    private List<Upgrade> currentUpgrades = new List<Upgrade>();
+
+    private bool upgradesDisplayed;
+
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+    }
 
     private void Start()
     {
-        upgradesEspeciaisDisponiveis = new List<Upgrade>(upgradesEspeciais);
-        upgradesArriscadosDisponiveis = new List<Upgrade>(upgradesArriscados);
+        availableSpecialUpgrades = new List<Upgrade>(specialUpgrades);
+        availableRiskyUpgrades = new List<Upgrade>(riskyUpgrades);
 
         UiHandler(upgradeMenu, false);
-        faseTerminou = false;
+        waveEnded = false;
     }
 
     void Update()
     {
-        if (!faseTerminou) return;
-
-        Time.timeScale = 0f; // Pausa o jogo
-        UiHandler(upgradeMenu, true);
-
-        upgradesAtuais = GerarOpcoesUpgrades();
-
-        for (int i = 0; i < upgradeSlots.Length; i++)
+        if (waveEnded && !upgradesDisplayed)
         {
-            upgradeSlots[i].SetUpgrade(upgradesAtuais[i], this, i);
+            upgradesDisplayed = true;
+            StartCoroutine(OpenUpgradeMenu());
         }
-
-        faseTerminou = false; // Evita que continue rodando
     }
 
-    public void EscolherUpgrade(int index)
+    public void SelectUpgrade(int index)
     {
-        Upgrade escolhido = upgradesAtuais[index];
-        escolhido.Aplicar();
+        Upgrade chosen = currentUpgrades[index];
+        chosen.Aplicar();
 
         // Remove se for especial ou arriscado
-        if (upgradesEspeciaisDisponiveis.Contains(escolhido))
-            upgradesEspeciaisDisponiveis.Remove(escolhido);
-        else if (upgradesArriscadosDisponiveis.Contains(escolhido))
-            upgradesArriscadosDisponiveis.Remove(escolhido);
+        if (availableSpecialUpgrades.Contains(chosen))
+            availableSpecialUpgrades.Remove(chosen);
+        else if (availableRiskyUpgrades.Contains(chosen))
+            availableRiskyUpgrades.Remove(chosen);
 
         UiHandler(upgradeMenu, false);
         Time.timeScale = 1f;
+
+        upgradesDisplayed = false;
+        waveEnded = false;
+
+        GameManager.Instance.StartWave(GameManager.Instance.currentWaveIndex);
 
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
@@ -72,69 +79,84 @@ public class UpgradeManager : MonoBehaviour
 
     public void RerollUpgrade(int index)
     {
-        if (rerollsDisponiveis <= 0) return;
+        if (availableRerolls <= 0) return;
 
-        rerollsDisponiveis--;
+        availableRerolls--;
 
-        var novasOpcoes = GerarOpcoesUpgrades(1, upgradesAtuais.Select(u => u).ToList());
-        upgradesAtuais[index] = novasOpcoes[0];
+        var novasOpcoes = GenerateUpgradeOptions(1, currentUpgrades.Select(u => u).ToList());
+        currentUpgrades[index] = novasOpcoes[0];
 
-        upgradeSlots[index].SetUpgrade(upgradesAtuais[index], this, index);
+        upgradeSlots[index].SetUpgrade(currentUpgrades[index], this, index);
     }
 
-    private List<Upgrade> GerarOpcoesUpgrades(int quantidade = 3, List<Upgrade> excluidos = null)
+    private List<Upgrade> GenerateUpgradeOptions(int quantity = 3, List<Upgrade> excluded = null)
     {
-        List<Upgrade> opcoes = new List<Upgrade>();
-        excluidos ??= new List<Upgrade>();
+        List<Upgrade> options = new List<Upgrade>();
+        excluded ??= new List<Upgrade>();
 
-        while (opcoes.Count < quantidade)
+        while (options.Count < quantity)
         {
             float chance = Random.value;
-            Upgrade novo = null;
+            Upgrade @new = null;
 
             if (chance <= 0.05f)
             {
-                if (upgradesEspeciaisDisponiveis.Count > 0)
-                    novo = PegarAleatorio(upgradesEspeciaisDisponiveis, opcoes, excluidos);
+                if (availableSpecialUpgrades.Count > 0)
+                    @new = PickRandomUpgrade(availableSpecialUpgrades, options, excluded);
             }
             else if (chance <= 0.25f)
             {
-                if (upgradesArriscadosDisponiveis.Count > 0)
-                    novo = PegarAleatorio(upgradesArriscadosDisponiveis, opcoes, excluidos);
+                if (availableRiskyUpgrades.Count > 0)
+                    @new = PickRandomUpgrade(availableRiskyUpgrades, options, excluded);
             }
             else
             {
-                List<Upgrade> poolNormais = new List<Upgrade>(upgradesNormais);
+                List<Upgrade> normalPool = new List<Upgrade>(normalUpgrades);
 
                 if (PlayerStats.Instance.bloquearUpgradeAumentaVida)
                 {
                     // Remove especificamente o upgrade "Aumenta Vida"
-                    poolNormais = poolNormais.Where(upg => upg.nome != "Life").ToList();
+                    normalPool = normalPool.Where(upg => upg.nome != "Life").ToList();
                 }
 
-                novo = PegarAleatorio(poolNormais, opcoes, excluidos);
+                @new = PickRandomUpgrade(normalPool, options, excluded);
             }
 
 
-            if (novo != null)
-                opcoes.Add(novo);
+            if (@new != null)
+                options.Add(@new);
         }
 
-        return opcoes;
+        return options;
     }
 
 
-    private Upgrade PegarAleatorio(List<Upgrade> pool, List<Upgrade> existentes, List<Upgrade> excluidos)
+    private Upgrade PickRandomUpgrade(List<Upgrade> pool, List<Upgrade> existing, List<Upgrade> excluded)
     {
-        var filtrados = pool.Except(existentes).Except(excluidos).ToList();
-        if (filtrados.Count == 0) return null;
+        var filtered = pool.Except(existing).Except(excluded).ToList();
+        if (filtered.Count == 0) return null;
 
-        int index = Random.Range(0, filtrados.Count);
-        return filtrados[index];
+        int index = Random.Range(0, filtered.Count);
+        return filtered[index];
     }
 
     public void UiHandler(GameObject ui, bool isActive)
     {
         ui.gameObject.SetActive(isActive);
+    }
+
+    IEnumerator OpenUpgradeMenu()
+    {
+        yield return new WaitForEndOfFrame(); // espera UI inicializar
+
+        Time.timeScale = 0f;
+        UiHandler(upgradeMenu, true);
+
+        currentUpgrades = GenerateUpgradeOptions();
+
+        for (int i = 0; i < upgradeSlots.Length; i++)
+        {
+            upgradeSlots[i].SetUpgrade(currentUpgrades[i], this, i); // define visual e dados
+        }
     }
 }

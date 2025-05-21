@@ -4,7 +4,11 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     public static PlayerMovement Instance;
+    
+    [Header("DEBUG")]
+    [SerializeField] bool canDebug = false;
 
+    [Space(10)]
     [Header("Input")]
     [SerializeField] private InputActionAsset inputActions;
 
@@ -27,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Coyote Time")]
     [SerializeField] private float coyoteTime;
     private float _coyoteTimeCounter;
+
 
     private void Awake()
     {
@@ -61,6 +66,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        moveSpeed = PlayerStats.Instance.moveSpeed;
+
         rb.linearVelocity = new Vector2(_horizontal * moveSpeed, rb.linearVelocity.y);
 
         if (_IsGrounded())
@@ -72,7 +79,9 @@ public class PlayerMovement : MonoBehaviour
             _coyoteTimeCounter -= Time.deltaTime;
         }
 
-        Debug.Log($"Grounded: {_IsGrounded()} | CoyoteTime: {_coyoteTimeCounter}");
+        if (canDebug)
+            Debug.Log($"MoveSpeed: {moveSpeed}");
+            //Debug.Log($"Grounded: {_IsGrounded()} | CoyoteTime: {_coyoteTimeCounter}");
     }
 
     private void OnMove(InputAction.CallbackContext context)

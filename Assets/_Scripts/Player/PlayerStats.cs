@@ -8,7 +8,6 @@ public class PlayerStats : MonoBehaviour
 
 
     [Header("Atributos Atuais")]
-    [Header("")]
 
     public bool bloquearAumentoDeVida = false;
 
@@ -21,43 +20,43 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private float _critDamage = 1.5f;
     [SerializeField] private float _armor = 0f;
 
+    [Space(10)]
     [Header("Limites dos Atributos")]
-    [Header("")]
 
     public float minAttackSpeed = 0.1f;
     public float maxAttackSpeed = 10f;
 
-    [Header("")]
+    [Space(5)]
 
     public float minDamage = 1f;
     public float maxDamage = 999f;
 
-    [Header("")]
+    [Space(5)]
 
     public float minMoveSpeed = 0.5f;
     public float maxMoveSpeed = 20f;
 
-    [Header("")]
+    [Space(5)]
 
     public float minHealth = 10f;
     public float maxHealth = 1000f;
 
-    [Header("")]
+    [Space(5)]
 
     public float minDamageReduction = 0f;
     public float maxDamageReduction = 90f;
 
-    [Header("")]
+    [Space(5)]
 
     public float minCritChance = 0f;
     public float maxCritChance = 100f;
 
-    [Header("")]
+    [Space(5)]
 
     public float minCritDamage = 1f;
     public float maxCritDamage = 5f;
 
-    [Header("")]
+    [Space(5)]
 
     public float minArmor = 0f;
     public float maxArmor = 500f;

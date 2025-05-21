@@ -20,7 +20,7 @@ public class UpgradeSlot : MonoBehaviour
         index = idx;
 
         escolherBtn.onClick.RemoveAllListeners();
-        escolherBtn.onClick.AddListener(() => manager.EscolherUpgrade(index));
+        escolherBtn.onClick.AddListener(() => manager.SelectUpgrade(index));
 
         rerollBtn.onClick.RemoveAllListeners();
         rerollBtn.onClick.AddListener(() => manager.RerollUpgrade(index));

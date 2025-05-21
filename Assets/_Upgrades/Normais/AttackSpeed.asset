@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nome: Atack Speed
   icone: {fileID: -7020131715577738000, guid: 68b38e5d4bc19084a832b5e47fa3a1df, type: 3}
-  valor: 0.2
+  valor: 1
