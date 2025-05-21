@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MissFortuneCritical_0: 2521544031462794677
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

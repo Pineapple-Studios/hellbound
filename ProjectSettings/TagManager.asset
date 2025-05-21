@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Projetil
+  - Enemy
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
@@ -13,8 +15,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -41,6 +43,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemies
+    uniqueID: 3032747167
     locked: 0
   m_RenderingLayers:
   - Default

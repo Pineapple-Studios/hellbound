@@ -14,7 +14,6 @@ public class AnimationCtrlMenu : MonoBehaviour
     [Header("Selectable Buttons")]
     [SerializeField] public GameObject btnPlay;
     [SerializeField] public GameObject btnOptions;
-    [SerializeField] public GameObject btnAudio;
     [SerializeField] public GameObject btnExtras;
 
     GameObject goSelect;
@@ -28,6 +27,7 @@ public class AnimationCtrlMenu : MonoBehaviour
     {
         if (Instance == null) Instance = this;
     }
+
     private void Start()
     {
         _an = GetComponent<Animator>();
@@ -45,10 +45,14 @@ public class AnimationCtrlMenu : MonoBehaviour
             case MenuState.MainMenu:
                 Debug.LogWarning("Use GoBack() para retornar ao MainMenu.");
                 break;
+
             case MenuState.Options:
                 _an?.SetTrigger(GO_TO_OPTIONS);
-                goSelect = btnAudio;
+                goSelect = null;
+
+                Invoke(nameof(InvokeShowLastTab), 0.75f);
                 break;
+
             case MenuState.Extras:
                 _an?.SetTrigger(GO_TO_EXTRAS);
                 goSelect = btnExtras;
@@ -80,13 +84,12 @@ public class AnimationCtrlMenu : MonoBehaviour
                         break;
 
                     case MenuState.Options:
-                        _an?.SetTrigger(FROM_OPTIONS_TO_MENU);
                         goSelect = btnOptions;
+                        _an?.SetTrigger(FROM_OPTIONS_TO_MENU);
                         break;
                 }
 
                 currentState = MenuState.MainMenu;
-                
                 Invoke(nameof(ButtonSelect), 1);
             }
             else
@@ -98,6 +101,18 @@ public class AnimationCtrlMenu : MonoBehaviour
 
     public void ButtonSelect()
     {
-        EventSystem.current.SetSelectedGameObject(goSelect);
+        if (goSelect != null)
+            EventSystem.current.SetSelectedGameObject(goSelect);
+    }
+
+    private void InvokeShowLastTab()
+    {
+        OptionsSelector.Instance?.ForceSelectLastButton();
+    }
+
+    public void OnOptionsClosed()
+    {
+        if (OptionsSelector.Instance != null)
+            OptionsSelector.Instance.HideAllTabs();
     }
 }
