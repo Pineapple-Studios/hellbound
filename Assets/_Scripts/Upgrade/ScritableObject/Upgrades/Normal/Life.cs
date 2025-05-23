@@ -7,6 +7,6 @@ public class Life : Upgrade
 
     public override void Aplicar()
     {
-        PlayerStats.Instance.maxHealth += valor;
+        PlayerStats.Instance.Health += valor;
     }
 }

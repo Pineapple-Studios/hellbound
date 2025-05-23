@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
     public static PlayerMovement Instance;
-    
+
     [Header("DEBUG")]
     [SerializeField] bool canDebug = false;
 
@@ -32,6 +34,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float coyoteTime;
     private float _coyoteTimeCounter;
 
+    [Space(10)]
+    [Header("Dash")]
+    [SerializeField] private float dashForce = 50f;
+    [SerializeField] private float dashCooldown = 0.5f;
+    private bool _canDash = true;
+    private bool _isDashing = false;
 
     private void Awake()
     {
@@ -68,7 +76,17 @@ public class PlayerMovement : MonoBehaviour
     {
         moveSpeed = PlayerStats.Instance.moveSpeed;
 
-        rb.linearVelocity = new Vector2(_horizontal * moveSpeed, rb.linearVelocity.y);
+        // Movimento normal só se não estiver dando Dash
+        if (!_isDashing)
+        {
+            rb.linearVelocity = new Vector2(_horizontal * moveSpeed, rb.linearVelocity.y);
+        }
+
+        if (Keyboard.current.leftShiftKey.wasPressedThisFrame && PlayerStats.Instance.hasDash && _canDash)
+        {
+            Debug.Log("Executando Dash");
+            StartCoroutine(Dash());
+        }
 
         if (_IsGrounded())
         {
@@ -80,8 +98,9 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (canDebug)
+        {
             Debug.Log($"MoveSpeed: {moveSpeed}");
-            //Debug.Log($"Grounded: {_IsGrounded()} | CoyoteTime: {_coyoteTimeCounter}");
+        }
     }
 
     private void OnMove(InputAction.CallbackContext context)
@@ -98,10 +117,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnJump(InputAction.CallbackContext context)
     {
-        if (context.performed && _coyoteTimeCounter > 0f)
+        if (context.performed && (_coyoteTimeCounter > 0f || PlayerStats.Instance.hasWings))
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jump);
-            _coyoteTimeCounter = 0f;
+            if (!PlayerStats.Instance.hasWings)
+                _coyoteTimeCounter = 0f;
         }
 
         if (context.canceled && rb.linearVelocity.y > 0f)
@@ -122,5 +142,26 @@ public class PlayerMovement : MonoBehaviour
             Gizmos.color = Color.green;
             Gizmos.DrawWireSphere(groundCheck.position, 0.2f);
         }
+    }
+
+    private IEnumerator Dash()
+    {
+        Debug.Log("DASH: Aplicando força");
+
+        _isDashing = true;
+        _canDash = false;
+
+        // Define direção do dash: se parado, vai para a direita.
+        float dashDirection = (_horizontal != 0 ? Mathf.Sign(_horizontal) : 1);
+
+        rb.linearVelocity = new Vector2(dashDirection * dashForce, rb.linearVelocity.y);
+
+        yield return new WaitForSeconds(0.1f); // duração do dash
+
+        _isDashing = false;
+
+        yield return new WaitForSeconds(dashCooldown);
+
+        _canDash = true;
     }
 }
