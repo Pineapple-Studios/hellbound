@@ -73,7 +73,7 @@ public class UpgradeManager : MonoBehaviour
 
         GameManager.Instance.StartWave(GameManager.Instance.currentWaveIndex);
 
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); Está comentado porque ainda não há proxima cena, sera colocado depois.
     }
 
 
@@ -115,7 +115,7 @@ public class UpgradeManager : MonoBehaviour
 
                 if (PlayerStats.Instance.bloquearUpgradeAumentaVida)
                 {
-                    // Remove especificamente o upgrade "Aumenta Vida"
+                    
                     normalPool = normalPool.Where(upg => upg.nome != "Life").ToList();
                 }
 

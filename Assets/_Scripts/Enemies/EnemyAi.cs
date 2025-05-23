@@ -12,7 +12,7 @@ public class EnemyAi : MonoBehaviour
     [Header("Shoot (for ranged enemies)")]
     [SerializeField] private float timeToDestroy = 10;
     [SerializeField] private float cooldown = 1;
-    [SerializeField] private float damageShoot = 20;
+    [SerializeField] private float damageShoot = 10;
 
     private GameObject player;
     protected Transform trPlayer;
@@ -119,19 +119,42 @@ public class EnemyAi : MonoBehaviour
     {
         health -= amount;
         Debug.Log($"Health: {health}, Amount: {amount}");
+
+        if (health <= 0)
+        {
+            if (PlayerStats.Instance.hasExplosion)
+            {
+                ExplosionEffect();
+            }
+            Destroy(gameObject);
+        }
     }
+
+    private void ExplosionEffect()
+    {
+        int projectiles = 8;
+        float angleStep = 360f / projectiles;
+
+        for (int i = 0; i < projectiles; i++)
+        {
+            float angle = i * angleStep;
+            Vector2 dir = new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad));
+
+            GameObject bullet = Instantiate(enemySO.bullet_prefab, transform.position, Quaternion.identity);
+            bullet.GetComponent<Rigidbody2D>().AddForce(dir * 8f, ForceMode2D.Impulse);
+            Destroy(bullet, 3f);
+        }
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Projetil"))
+        if (collision.CompareTag("Player"))
         {
-            if (collision.TryGetComponent(out Bullet bullet))
-            {
-                TakeDamage(bullet.GetDamage());
-            }
-
-            Destroy(collision.gameObject);
+            Debug.Log("Inimigo causou dano ao player!");
+            PlayerStats.Instance.ReceiveDamage(damageShoot);  
         }
+
 
         if (!isRanged && collision.CompareTag("Player"))
         {

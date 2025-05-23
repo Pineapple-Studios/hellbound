@@ -87,16 +87,24 @@ public class PlayerBullet : MonoBehaviour
         Vector2 aimDirection = GetAimDirection();
         if (aimDirection == Vector2.zero) return;
 
-        Quaternion bulletRotation = Quaternion.Euler(0, 0, Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg);
+        int shots = PlayerStats.Instance.projectilesPerShot;
+        float angleStep = 10f; // graus de separação
 
-        GameObject bullet = Instantiate(bulletPrefab, bulletOrigin.position, bulletRotation);
-        bullet.GetComponent<Rigidbody2D>().linearVelocity = aimDirection.normalized * bulletSpeed;
-
-        if (bullet.TryGetComponent(out Bullet bulletScript))
+        for (int i = 0; i < shots; i++)
         {
-            bulletScript.SetDamage(PlayerStats.Instance.damage);
+            float angle = -angleStep * (shots - 1) / 2f + i * angleStep;
+            Quaternion rotation = Quaternion.Euler(0, 0, Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg + angle);
+
+            GameObject bullet = Instantiate(bulletPrefab, bulletOrigin.position, rotation);
+            bullet.GetComponent<Rigidbody2D>().linearVelocity = rotation * Vector2.right * bulletSpeed;
+
+            if (bullet.TryGetComponent(out Bullet bulletScript))
+            {
+                bulletScript.SetDamage(PlayerStats.Instance.damage);
+            }
         }
     }
+
 
     private Vector2 GetAimDirection()
     {

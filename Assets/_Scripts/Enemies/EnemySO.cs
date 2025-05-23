@@ -18,7 +18,7 @@ public class EnemySO : ScriptableObject
     public float cooldown;
 
     [Space(5)]
-    [Header("Movimentação")]
+    [Header("Movimentaï¿½ï¿½o")]
     public float moveSpeed = 2f;
     public float stopDistance = 1f;
 }

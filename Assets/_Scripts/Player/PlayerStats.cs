@@ -1,16 +1,18 @@
 using UnityEngine;
+using System;
+using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
     public static PlayerStats Instance;
 
-    public bool bloquearUpgradeAumentaVida = false;
-
+    [Header("Death UI Maneger")]
+    [SerializeField] private GameObject deathScreen;  // tela de derrota
+    [SerializeField] private TMPro.TMP_Text waveText; // texto para mostrar wave
+    [SerializeField] private Button menuButton; // botão para menu
 
     [Header("Atributos Atuais")]
-
-    public bool bloquearAumentoDeVida = false;
-
     [SerializeField] private float _attackSpeed = 1f;
     [SerializeField] private float _damage = 10f;
     [SerializeField] private float _moveSpeed = 5f;
@@ -22,44 +24,55 @@ public class PlayerStats : MonoBehaviour
 
     [Space(10)]
     [Header("Limites dos Atributos")]
-
     public float minAttackSpeed = 0.1f;
     public float maxAttackSpeed = 10f;
-
-    [Space(5)]
 
     public float minDamage = 1f;
     public float maxDamage = 999f;
 
-    [Space(5)]
-
     public float minMoveSpeed = 0.5f;
     public float maxMoveSpeed = 20f;
-
-    [Space(5)]
 
     public float minHealth = 10f;
     public float maxHealth = 1000f;
 
-    [Space(5)]
-
     public float minDamageReduction = 0f;
     public float maxDamageReduction = 90f;
-
-    [Space(5)]
 
     public float minCritChance = 0f;
     public float maxCritChance = 100f;
 
-    [Space(5)]
-
     public float minCritDamage = 1f;
     public float maxCritDamage = 5f;
 
-    [Space(5)]
-
     public float minArmor = 0f;
     public float maxArmor = 500f;
+
+    // ➡️ Flags para upgrades especiais:
+    [Header("Upgrades Especiais")]
+    public bool hasGhostShoot = false;
+    public bool hasReflectedShoot = false;
+    public bool hasRevive = false;
+    public bool hasInvulnerability = false;
+    public bool hasDivineShield = false;
+    public bool hasDash = false;
+    public bool hasWings = false;
+    public bool hasExplosion = false;
+
+    [Header("Status temporários")]
+    public bool shieldAvailable = false;   // Divine Shield
+    public bool isInvulnerable = false;    // Invulnerability
+    public bool canDash = true;            // Dash cooldown
+    public bool hasUsedRevive = false;     // Revive controle
+
+    [Header("Ataque especial")]
+    public int projectilesPerShot = 1;
+
+    [Header("Configuração de Invulnerabilidade")]
+    [SerializeField] private float invulnerabilityDuration = 3f; // tempo padrão de 3 segundos
+
+    public bool bloquearUpgradeAumentaVida = false;
+    public bool bloquearAumentoDeVida = false;
 
     public float attackSpeed
     {
@@ -87,7 +100,6 @@ public class PlayerStats : MonoBehaviour
             if (bloquearAumentoDeVida) return;
             _Health = Mathf.Clamp(value, minHealth, maxHealth);
         }
-
     }
 
     public float damageReduction
@@ -114,10 +126,101 @@ public class PlayerStats : MonoBehaviour
         set => _armor = Mathf.Clamp(value, minArmor, maxArmor);
     }
 
-    void Awake()
+    private void Awake()
     {
         Instance = this;
     }
+
+    private void Start()
+    {
+        deathScreen.SetActive(false);
+    }
+
+    public void ReceiveDamage(float amount)
+    {
+        if (hasInvulnerability || isInvulnerable) return;
+
+        if (hasDivineShield && shieldAvailable)
+        {
+            shieldAvailable = false;
+            Debug.Log("Divine Shield bloqueou o dano!");
+            return;
+        }
+
+        float remainingDamage = amount;
+
+        if (armor > 0)
+        {
+            if (armor >= remainingDamage)
+            {
+                armor -= remainingDamage;
+                Debug.Log($"Armadura absorveu todo o dano. Armadura restante: {armor}");
+                return; // todo dano foi absorvido, não mexe na vida
+            }
+            else
+            {
+                remainingDamage -= armor;
+                Debug.Log($"Armadura absorveu {armor} de dano.");
+                armor = 0;
+            }
+        }
+
+        // Aplica dano restante à vida
+        Health -= remainingDamage;
+        Debug.Log($"Vida perdeu {remainingDamage}. Vida restante: {Health}");
+
+        if (Health <= 0)
+        {
+            if (hasRevive && !hasUsedRevive)
+            {
+                hasUsedRevive = true;
+                Health = 1f;
+                Debug.Log("Revive ativado!");
+            }
+            else
+            {
+                Die();
+            }
+        }
+    }
+
+
+
+    private void Die()
+    {
+        Debug.Log("Player morreu!");
+
+        Time.timeScale = 0f;
+
+        if (deathScreen != null)
+        {
+            deathScreen.SetActive(true);
+
+            if (waveText != null)
+                waveText.text = $"Você perdeu na fase {GameManager.Instance.currentWaveIndex + 1}";
+
+            if (menuButton != null)
+                menuButton.onClick.RemoveAllListeners();
+            menuButton.onClick.AddListener(() => UnityEngine.SceneManagement.SceneManager.LoadScene("Menu"));
+        }
+    }
+
+    public void ActivateInvulnerability()
+    {
+        if (!hasInvulnerability) return;
+
+        StartCoroutine(InvulnerabilityRoutine(invulnerabilityDuration));
+    }
+
+    private IEnumerator InvulnerabilityRoutine(float duration)
+    {
+        isInvulnerable = true;
+        Debug.Log("Invulnerável!");
+
+        yield return new WaitForSeconds(duration);
+
+        isInvulnerable = false;
+        Debug.Log("Invulnerabilidade acabou.");
+    }
+
 }
-
-

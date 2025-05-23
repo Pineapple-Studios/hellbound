@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 919c94bca66980543a9ba043dfa23092, type: 3}
   m_Name: E1_Level1
   m_EditorClassIdentifier: 
-  bullet_prefab: {fileID: 0}
+  bullet_prefab: {fileID: 1573583181300778851, guid: 8385a739577bc674ebc9d8bba2aab9f1, type: 3}
   sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   height: 3
   distance: 10
