@@ -52,6 +52,8 @@ public class GameManager : MonoBehaviour
         phaseTimer = 0f;
         enemiesSpawned = 0;
         isSpawning = true;
+        PlayerStats.Instance.shieldAvailable = PlayerStats.Instance.hasDivineShield;
+
 
         for (int i = 0; i < currentWave.minEnemies; i++)
         {
