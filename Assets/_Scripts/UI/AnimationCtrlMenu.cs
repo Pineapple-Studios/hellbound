@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class AnimationCtrlMenu : MonoBehaviour
 {
@@ -10,11 +11,16 @@ public class AnimationCtrlMenu : MonoBehaviour
     private const string GO_TO_EXTRAS = "toExtras";
     private const string FROM_OPTIONS_TO_MENU = "fromOptionsToMenu";
     private const string FROM_EXTRAS_TO_MENU = "fromExtraToMenu";
+    private const string PRESS_ANY_KEY = "anyKeyPressed";
+    private const string GAMEPLAY = "transitionPlay";
 
     [Header("Selectable Buttons")]
     [SerializeField] public GameObject btnPlay;
     [SerializeField] public GameObject btnOptions;
     [SerializeField] public GameObject btnExtras;
+
+    [Space(10)]
+    [SerializeField] private GameObject pressAnyKeyPanel;
 
     GameObject goSelect;
 
@@ -56,6 +62,10 @@ public class AnimationCtrlMenu : MonoBehaviour
             case MenuState.Extras:
                 _an?.SetTrigger(GO_TO_EXTRAS);
                 goSelect = btnExtras;
+                break; 
+
+            case MenuState.Play:
+                _an?.SetTrigger(GAMEPLAY);
                 break;
         }
 
@@ -99,6 +109,18 @@ public class AnimationCtrlMenu : MonoBehaviour
         }
     }
 
+    public void AnyKeyPressed()
+    {
+        if (pressAnyKeyPanel != null)
+        {
+            Animator anim = pressAnyKeyPanel.GetComponent<Animator>();
+            if (anim != null)
+            {
+                anim.SetTrigger(PRESS_ANY_KEY);
+            }
+        }
+    }
+
     public void ButtonSelect()
     {
         if (goSelect != null)
@@ -114,5 +136,10 @@ public class AnimationCtrlMenu : MonoBehaviour
     {
         if (OptionsSelector.Instance != null)
             OptionsSelector.Instance.HideAllTabs();
+    }
+
+    public void OnNextScene()
+    {
+        SceneManager.LoadScene("Gameplay");
     }
 }

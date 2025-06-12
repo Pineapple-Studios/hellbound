@@ -76,12 +76,9 @@ public class GameManager : MonoBehaviour
 
         isSpawning = false;
     }
-
     public void AdvanceWave()
     {
         Debug.Log("WAVE COMPLETA!");
-
-        currentWaveIndex++;
 
         Time.timeScale = 0f;
         UpgradeManager.Instance.waveEnded = true;

@@ -147,7 +147,9 @@ public class PlayerStats : MonoBehaviour
             return;
         }
 
-        float remainingDamage = amount;
+        float reductionPercent = Mathf.Clamp(damageReduction, 0f, 100f);
+        float remainingDamage = amount * (1f - reductionPercent / 100f);
+
 
         if (armor > 0)
         {
