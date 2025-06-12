@@ -71,6 +71,7 @@ public class UpgradeManager : MonoBehaviour
         upgradesDisplayed = false;
         waveEnded = false;
 
+        GameManager.Instance.currentWaveIndex++;
         GameManager.Instance.StartWave(GameManager.Instance.currentWaveIndex);
 
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); Está comentado porque ainda não há proxima cena, sera colocado depois.

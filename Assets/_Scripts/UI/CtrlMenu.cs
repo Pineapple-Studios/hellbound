@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
@@ -19,6 +20,7 @@ public class CtrlMenu : MonoBehaviour
     private InputAction confirmAction;
     private InputAction backAction;
 
+
     private AnimationCtrlMenu _acm;
 
     private void Awake()
@@ -33,6 +35,15 @@ public class CtrlMenu : MonoBehaviour
         backAction = uiMap.FindAction("Back");
     }
 
+    void Start()
+    {
+
+        btnPlay.gameObject.SetActive(false);
+        btnOptions.gameObject.SetActive(false);
+        btnExtras.gameObject.SetActive(false);
+        btnQuit.gameObject.SetActive(false);
+    }
+
     private void OnEnable()
     {
         inputActions.FindActionMap("UI").Enable();
@@ -43,14 +54,16 @@ public class CtrlMenu : MonoBehaviour
 
     private void OnDisable()
     {
-        backAction.performed -= OnBack;
         inputActions.FindActionMap("UI").Disable();
+        backAction.performed -= OnBack;
+
         BtnDisable();
     }
 
     void OnPlay()
     {
         Debug.Log("Play");
+        _acm.GoTo(MenuState.Play);
     }
 
     void OnOptions()

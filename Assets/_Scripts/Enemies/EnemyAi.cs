@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class EnemyAi : MonoBehaviour
 {
+    public static EnemyAi instance;
+
     [Header("Config")]
     [SerializeField] public EnemySO enemySO;
 
@@ -12,7 +14,7 @@ public class EnemyAi : MonoBehaviour
     [Header("Shoot (for ranged enemies)")]
     [SerializeField] private float timeToDestroy = 10;
     [SerializeField] private float cooldown = 1;
-    [SerializeField] private float damageShoot = 10;
+    [SerializeField] public float damageShoot = 10;
 
     private GameObject player;
     protected Transform trPlayer;
@@ -26,6 +28,10 @@ public class EnemyAi : MonoBehaviour
 
     protected virtual void Start()
     {
+        if (instance == null)
+            instance = this;
+
+
         player = GameObject.Find("Player");
         trPlayer = player.transform;
 
@@ -118,7 +124,8 @@ public class EnemyAi : MonoBehaviour
     public void TakeDamage(float amount)
     {
         health -= amount;
-        Debug.Log($"Health: {health}, Amount: {amount}");
+
+        //Debug.Log($"Health: {health}, Amount: {amount}");
 
         if (health <= 0)
         {
@@ -151,15 +158,14 @@ public class EnemyAi : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            PlayerStats.Instance.ReceiveDamage(damageShoot);
             Debug.Log("Inimigo causou dano ao player!");
-            PlayerStats.Instance.ReceiveDamage(damageShoot);  
-        }
 
-
-        if (!isRanged && collision.CompareTag("Player"))
-        {
-            Debug.Log("E1 encostou no player!");
-            Destroy(gameObject);
+            if (!isRanged)
+            {
+                Debug.Log("E1 foi destruído após encostar no player.");
+                Destroy(gameObject);
+            }
         }
     }
 }

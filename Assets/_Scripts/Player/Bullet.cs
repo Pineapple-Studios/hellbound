@@ -25,7 +25,16 @@ public class Bullet : MonoBehaviour
         {
             if (collision.TryGetComponent(out EnemyAi enemy))
             {
-                enemy.TakeDamage(GetDamage());
+                float finalDamage = damage;
+
+                float critRoll = Random.Range(0f, 100f);
+                if (critRoll < PlayerStats.Instance.critChance)
+                {
+                    finalDamage *= PlayerStats.Instance.critDamage;
+                    Debug.Log($"Dano crítico aplicado: {finalDamage}");
+                }
+
+                enemy.TakeDamage(finalDamage);
             }
 
             bool hasGhost = PlayerStats.Instance.hasGhostShoot;
@@ -35,22 +44,17 @@ public class Bullet : MonoBehaviour
             {
                 Vector2 reflectDir = Vector2.Reflect(
                     GetComponent<Rigidbody2D>().linearVelocity.normalized,
-                    (collision.transform.position - transform.position).normalized // aproximação de normal
+                    (collision.transform.position - transform.position).normalized
                 );
 
                 GetComponent<Rigidbody2D>().linearVelocity = reflectDir * GetComponent<Rigidbody2D>().linearVelocity.magnitude;
-
-                return; // Não destrói
+                return;
             }
 
-            if (hasGhost)
-            {
-                return; // Apenas atravessa
-            }
+            if (hasGhost) return;
 
             Destroy(gameObject);
         }
     }
-
 }
 

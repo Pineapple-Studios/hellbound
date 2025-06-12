@@ -1090,8 +1090,8 @@ GameObject:
   m_Component:
   - component: {fileID: 721042163}
   - component: {fileID: 721042162}
-  - component: {fileID: 721042161}
   - component: {fileID: 721042160}
+  - component: {fileID: 721042161}
   - component: {fileID: 721042159}
   - component: {fileID: 721042158}
   - component: {fileID: 721042157}
@@ -1119,10 +1119,10 @@ MonoBehaviour:
   menuButton: {fileID: 782150189}
   _attackSpeed: 10
   _damage: 10
-  _moveSpeed: 5
+  _moveSpeed: 5.07
   _Health: 20
   _damageReduction: 0
-  _critChance: 0
+  _critChance: 100
   _critDamage: 1.5
   _armor: 0
   minAttackSpeed: 0.1

@@ -6,5 +6,6 @@ public enum MenuState
     Options,
     Extras,
     Audio,
-    Video
+    Video,
+    Play
 }

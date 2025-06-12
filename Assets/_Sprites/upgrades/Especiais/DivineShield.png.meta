@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DivineShield_0: 7937725704853097872
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

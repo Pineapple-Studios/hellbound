@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8012811991853754539}
   - component: {fileID: 831839084600968187}
+  - component: {fileID: 8791679945351124982}
+  - component: {fileID: 5951505721375397696}
   - component: {fileID: 1006833627049129853}
   - component: {fileID: 2431128941216298931}
-  - component: {fileID: 8791679945351124982}
   m_Layer: 0
   m_Name: E1
   m_TagString: Enemy
@@ -90,6 +91,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8791679945351124982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595388468556942762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801cc609d203ef74cb396b93e4038df3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySO: {fileID: 11400000, guid: e61c8056e15c02e46a6333f9354eb4ba, type: 2}
+  isRanged: 0
+  timeToDestroy: 10
+  cooldown: 1
+  damageShoot: 20
+--- !u!114 &5951505721375397696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595388468556942762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816d224457f9d064e8270e7f156277e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 1.5
+  forceStrength: 1
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  drawGizmos: 1
 --- !u!61 &1006833627049129853
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -163,20 +199,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8791679945351124982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2595388468556942762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 801cc609d203ef74cb396b93e4038df3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemySO: {fileID: 11400000, guid: e61c8056e15c02e46a6333f9354eb4ba, type: 2}
-  isRanged: 0
-  timeToDestroy: 10
-  cooldown: 1
-  damageShoot: 20
