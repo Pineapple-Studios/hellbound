@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HB_AUDIO_SLIDER_0: -8861824822803634923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
