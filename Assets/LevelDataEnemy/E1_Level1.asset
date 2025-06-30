@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: E1_Level1
   m_EditorClassIdentifier: 
   bullet_prefab: {fileID: 1573583181300778851, guid: 8385a739577bc674ebc9d8bba2aab9f1, type: 3}
-  sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  sprite: {fileID: 1558126895652355654, guid: f02eaae2dff13004682639ac360dc96e, type: 3}
   height: 3
   distance: 10
   healthMax: 100
