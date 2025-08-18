@@ -1,4 +1,4 @@
-# Unity generated folders
+# --- Unity (arquivos e pastas gerados automaticamente) ---
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -7,7 +7,7 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 
-# User-specific files
+# --- Arquivos de projeto do usuário/IDE ---
 *.csproj
 *.unityproj
 *.sln
@@ -22,13 +22,20 @@
 *.mdb
 *.opendb
 
-# IDEs
+# --- FMOD ---
+Assets/Plugins/FMOD/**/*.meta
+fmod_editor.log
+
+# --- IDEs ---
 .vs/
 .vscode/
 .idea/
 *.sln.iml
+*.ipr
+*.iws
+*.bak
 
-# OS
+# --- Arquivos do Sistema Operacional ---
 .DS_Store
 Thumbs.db
 ehthumbs.db
@@ -36,13 +43,7 @@ Desktop.ini
 Icon?
 ._*
 
-# Rider
-.idea/
-*.ipr
-*.iws
-*.bak
-
-# Build pipeline
+# --- Unity Addressables / StreamingAssets ---
 /[Aa]ssets/AddressableAssetsData/*.bin*
 /Assets/StreamingAssets/aa.meta
 /Assets/StreamingAssets/aa/
