@@ -1,0 +1,1277 @@
+fileFormatVersion: 2
+guid: 47089731d1986f2489fd55397114fd9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2111286621485321139
+    second: SPRITE_ADAM_IDLE_0
+  - first:
+      213: -1197915745549927217
+    second: SPRITE_ADAM_IDLE_1
+  - first:
+      213: 4661699523421213640
+    second: SPRITE_ADAM_IDLE_2
+  - first:
+      213: 5045602740374434883
+    second: SPRITE_ADAM_IDLE_3
+  - first:
+      213: -2625179841820433024
+    second: SPRITE_ADAM_IDLE_4
+  - first:
+      213: 9169964470352690579
+    second: SPRITE_ADAM_IDLE_5
+  - first:
+      213: -1557764348213480999
+    second: SPRITE_ADAM_IDLE_6
+  - first:
+      213: 5048700034900043760
+    second: SPRITE_ADAM_IDLE_7
+  - first:
+      213: -5123124078924069125
+    second: SPRITE_ADAM_IDLE_8
+  - first:
+      213: 1662135553664469300
+    second: SPRITE_ADAM_IDLE_9
+  - first:
+      213: 6035713375752789491
+    second: SPRITE_ADAM_IDLE_10
+  - first:
+      213: 1235661624531669690
+    second: SPRITE_ADAM_IDLE_11
+  - first:
+      213: 7033803996398698512
+    second: SPRITE_ADAM_IDLE_12
+  - first:
+      213: -3210051234505109787
+    second: SPRITE_ADAM_IDLE_13
+  - first:
+      213: -4083159598168747615
+    second: SPRITE_ADAM_IDLE_14
+  - first:
+      213: 1253559254854099062
+    second: SPRITE_ADAM_IDLE_15
+  - first:
+      213: -264813413296810525
+    second: SPRITE_ADAM_IDLE_16
+  - first:
+      213: -978106534696595032
+    second: SPRITE_ADAM_IDLE_17
+  - first:
+      213: 1997965716627096137
+    second: SPRITE_ADAM_IDLE_18
+  - first:
+      213: -4552054410888701559
+    second: SPRITE_ADAM_IDLE_19
+  - first:
+      213: -4625441755252153958
+    second: SPRITE_ADAM_IDLE_20
+  - first:
+      213: -5999798186455987839
+    second: SPRITE_ADAM_IDLE_21
+  - first:
+      213: 3878492354291427834
+    second: SPRITE_ADAM_IDLE_22
+  - first:
+      213: 989251107572877849
+    second: SPRITE_ADAM_IDLE_23
+  - first:
+      213: 4129395523361200273
+    second: SPRITE_ADAM_IDLE_24
+  - first:
+      213: 722133972583169115
+    second: SPRITE_ADAM_IDLE_25
+  - first:
+      213: -4260859662362279040
+    second: SPRITE_ADAM_IDLE_26
+  - first:
+      213: 3210453290165328301
+    second: SPRITE_ADAM_IDLE_27
+  - first:
+      213: -8534222188895367283
+    second: SPRITE_ADAM_IDLE_28
+  - first:
+      213: -7504388516336835021
+    second: SPRITE_ADAM_IDLE_29
+  - first:
+      213: 2075301007435910298
+    second: SPRITE_ADAM_IDLE_30
+  - first:
+      213: -5662248808948389324
+    second: SPRITE_ADAM_IDLE_31
+  - first:
+      213: 4996994433025042653
+    second: SPRITE_ADAM_IDLE_32
+  - first:
+      213: -4842646200118437650
+    second: SPRITE_ADAM_IDLE_33
+  - first:
+      213: -1218228755406855176
+    second: SPRITE_ADAM_IDLE_34
+  - first:
+      213: -3085985908588679962
+    second: SPRITE_ADAM_IDLE_35
+  - first:
+      213: -8753632964320235748
+    second: SPRITE_ADAM_IDLE_36
+  - first:
+      213: 6497615838087576659
+    second: SPRITE_ADAM_IDLE_37
+  - first:
+      213: -8588902410600899580
+    second: SPRITE_ADAM_IDLE_38
+  - first:
+      213: 320184027714325003
+    second: SPRITE_ADAM_IDLE_39
+  - first:
+      213: -7636330366545489675
+    second: SPRITE_ADAM_IDLE_40
+  - first:
+      213: -7185887782916028870
+    second: SPRITE_ADAM_IDLE_41
+  - first:
+      213: -1045343047903231691
+    second: SPRITE_ADAM_IDLE_42
+  - first:
+      213: 7176065640903874398
+    second: SPRITE_ADAM_IDLE_43
+  - first:
+      213: 1366390465493567444
+    second: SPRITE_ADAM_IDLE_44
+  - first:
+      213: -4005848804542379261
+    second: SPRITE_ADAM_IDLE_45
+  - first:
+      213: 6054920853426562451
+    second: SPRITE_ADAM_IDLE_46
+  - first:
+      213: 7350023909457965619
+    second: SPRITE_ADAM_IDLE_47
+  - first:
+      213: -2947721973372468712
+    second: SPRITE_ADAM_IDLE_48
+  - first:
+      213: 3891243260133612406
+    second: SPRITE_ADAM_IDLE_49
+  - first:
+      213: 2328164696797111345
+    second: SPRITE_ADAM_IDLE_50
+  - first:
+      213: 4569400203712153857
+    second: SPRITE_ADAM_IDLE_51
+  - first:
+      213: 1096667462067664439
+    second: SPRITE_ADAM_IDLE_52
+  - first:
+      213: 3980518328852219489
+    second: SPRITE_ADAM_IDLE_53
+  - first:
+      213: 4274471804850700312
+    second: SPRITE_ADAM_IDLE_54
+  - first:
+      213: -1506147342894941758
+    second: SPRITE_ADAM_IDLE_55
+  - first:
+      213: -2324664160189176355
+    second: SPRITE_ADAM_IDLE_56
+  - first:
+      213: 4999515880659831211
+    second: SPRITE_ADAM_IDLE_57
+  - first:
+      213: -3445328923707467766
+    second: SPRITE_ADAM_IDLE_58
+  - first:
+      213: 1412507220776813241
+    second: SPRITE_ADAM_IDLE_59
+  - first:
+      213: -3376549569488015489
+    second: SPRITE_ADAM_IDLE_60
+  - first:
+      213: -4772949647605266148
+    second: SPRITE_ADAM_IDLE_61
+  - first:
+      213: -1024263418682585659
+    second: SPRITE_ADAM_IDLE_62
+  - first:
+      213: -3117007610173836887
+    second: SPRITE_ADAM_IDLE_63
+  - first:
+      213: -742392449218792909
+    second: SPRITE_ADAM_IDLE_64
+  - first:
+      213: -8528925048036210018
+    second: SPRITE_ADAM_IDLE_65
+  - first:
+      213: 8168059561987552188
+    second: SPRITE_ADAM_IDLE_66
+  - first:
+      213: 886798450242400799
+    second: SPRITE_ADAM_IDLE_67
+  - first:
+      213: -8093642819330159666
+    second: SPRITE_ADAM_IDLE_68
+  - first:
+      213: -7510923603803718520
+    second: SPRITE_ADAM_IDLE_69
+  - first:
+      213: 4614090894912185712
+    second: SPRITE_ADAM_IDLE_70
+  - first:
+      213: -1617277653299285650
+    second: SPRITE_ADAM_IDLE_71
+  - first:
+      213: -8386087999993423817
+    second: SPRITE_ADAM_IDLE_72
+  - first:
+      213: 3236315184039015506
+    second: SPRITE_ADAM_IDLE_73
+  - first:
+      213: 7538214844810801631
+    second: SPRITE_ADAM_IDLE_74
+  - first:
+      213: 4043618848283332678
+    second: SPRITE_ADAM_IDLE_75
+  - first:
+      213: -7877511935101126368
+    second: SPRITE_ADAM_IDLE_76
+  - first:
+      213: -6244592052510769316
+    second: SPRITE_ADAM_IDLE_77
+  - first:
+      213: 7771369478326720153
+    second: SPRITE_ADAM_IDLE_78
+  - first:
+      213: -7323216627549616039
+    second: SPRITE_ADAM_IDLE_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611790105eed30949b6839cd372a5281
+      internalID: -600870467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703d76367b50f6b4f9990f2f1fcbe2dd
+      internalID: 2027898614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea594ea802233c4b86432247edd72c7
+      internalID: -715673333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ed51fb17e457e4d827b297b5fa7ff9
+      internalID: -1455851783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40257eb4563436c4eb454d56c775b493
+      internalID: -293150405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7f02f2a72e92d428acaf3dbbb4db0c
+      internalID: -1232767588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd1ec0fb05a0384fbcff7356b17380a
+      internalID: -907810041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887c3567f2a9d104d96ad997bae67eb4
+      internalID: -68542235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f430a2b13cc2264da16d4ce0ee32fae
+      internalID: -245276771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c042b3ee31895478451d6c33be991b
+      internalID: -634715342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3922490dc259c0549a2dc1368e9df19c
+      internalID: -1547505322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2eb786da0375944b17c863aef2608c
+      internalID: -604140744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d0d39ded40ab6499e5f7ac6277a686
+      internalID: 565335800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_13
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ae54569e6bcb340a4dc9d6cce3eafd
+      internalID: 274189732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434da7cdd216e0c43af583f8860ac8bb
+      internalID: -458211914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_15
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68610a43c22c5eb4aa2ae4933b6443ae
+      internalID: 390336291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03976b0a735dc74694d8abc983c5236
+      internalID: 666086564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dbb745d38ef464bb6998d8bdd917c7
+      internalID: 1298779065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61014610936d0b469c68d3b628c1ec2
+      internalID: -1860009916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4fdc90d44c80f4ca49f76f52b579cb
+      internalID: 1370270794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba937447f33bc34481f931fa0b9fdb3
+      internalID: -436099889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726370c9baaa6b849992a4fe6c6c08dc
+      internalID: 942737971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c1acb844d0c1847a12fe0245a7c382
+      internalID: 2115592622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_23
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c150f69faeb5e448aef5e310d287f6e
+      internalID: -1025527269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855cba084b390754a861cc03725b6f9a
+      internalID: -1211812103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4044e31ffb93ffa4b8ea3639df327f60
+      internalID: 1176565193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5506f30515e180746bea850547b2ad90
+      internalID: 84179914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_27
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd2f2aaeb52adb418115a09fc1d145c
+      internalID: 1525039495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aa0680b756bb74898c9e28c4aaad15
+      internalID: 475912541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_29
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ec45a19f15791448daa11ed71bac83
+      internalID: 421657249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_30
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c5a47b079afa94fafba1b0267e00a1
+      internalID: 2086099034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_31
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde3b3e2148a11a49aec9fbccea03c2a
+      internalID: -204120181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba3c86e300a94e4f9fa72b070b3baf9
+      internalID: -1622846545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052c713e34963fa47b1c9ea90320272f
+      internalID: 1451051056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_34
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60203d07855e134408d7741bcd7cd3d3
+      internalID: 2097453530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_35
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640160857ca9e9f42b79f8b16aff2392
+      internalID: -1447590147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22777f1bd6eb85b45a3d6a47457120b0
+      internalID: 1017652002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_37
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f412cb8f8a769054a9dbda776cbbe88a
+      internalID: -1742258441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_38
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51d91c988b71e045beace9acd30621e
+      internalID: 1410138100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_IDLE_39
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d25e9f7549c308439cbdfd24bafa9d9
+      internalID: 1422537781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bcf3244d33548064f9dce5e2ffe8d201
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPRITE_ADAM_IDLE_0: -600870467
+      SPRITE_ADAM_IDLE_1: 2027898614
+      SPRITE_ADAM_IDLE_10: -1547505322
+      SPRITE_ADAM_IDLE_11: -604140744
+      SPRITE_ADAM_IDLE_12: 565335800
+      SPRITE_ADAM_IDLE_13: 274189732
+      SPRITE_ADAM_IDLE_14: -458211914
+      SPRITE_ADAM_IDLE_15: 390336291
+      SPRITE_ADAM_IDLE_16: 666086564
+      SPRITE_ADAM_IDLE_17: 1298779065
+      SPRITE_ADAM_IDLE_18: -1860009916
+      SPRITE_ADAM_IDLE_19: 1370270794
+      SPRITE_ADAM_IDLE_2: -715673333
+      SPRITE_ADAM_IDLE_20: -436099889
+      SPRITE_ADAM_IDLE_21: 942737971
+      SPRITE_ADAM_IDLE_22: 2115592622
+      SPRITE_ADAM_IDLE_23: -1025527269
+      SPRITE_ADAM_IDLE_24: -1211812103
+      SPRITE_ADAM_IDLE_25: 1176565193
+      SPRITE_ADAM_IDLE_26: 84179914
+      SPRITE_ADAM_IDLE_27: 1525039495
+      SPRITE_ADAM_IDLE_28: 475912541
+      SPRITE_ADAM_IDLE_29: 421657249
+      SPRITE_ADAM_IDLE_3: -1455851783
+      SPRITE_ADAM_IDLE_30: 2086099034
+      SPRITE_ADAM_IDLE_31: -204120181
+      SPRITE_ADAM_IDLE_32: -1622846545
+      SPRITE_ADAM_IDLE_33: 1451051056
+      SPRITE_ADAM_IDLE_34: 2097453530
+      SPRITE_ADAM_IDLE_35: -1447590147
+      SPRITE_ADAM_IDLE_36: 1017652002
+      SPRITE_ADAM_IDLE_37: -1742258441
+      SPRITE_ADAM_IDLE_38: 1410138100
+      SPRITE_ADAM_IDLE_39: 1422537781
+      SPRITE_ADAM_IDLE_4: -293150405
+      SPRITE_ADAM_IDLE_5: -1232767588
+      SPRITE_ADAM_IDLE_6: -907810041
+      SPRITE_ADAM_IDLE_7: -68542235
+      SPRITE_ADAM_IDLE_8: -245276771
+      SPRITE_ADAM_IDLE_9: -634715342
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

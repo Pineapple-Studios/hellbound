@@ -1,0 +1,1259 @@
+fileFormatVersion: 2
+guid: 47c9b6ddc68ec5448a2f053d0e383cc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8843525721330855125
+    second: SPRITE_ADAM_JUMP_0
+  - first:
+      213: 8606556283774163942
+    second: SPRITE_ADAM_JUMP_1
+  - first:
+      213: 3763998803705041310
+    second: SPRITE_ADAM_JUMP_2
+  - first:
+      213: -3099204158593928097
+    second: SPRITE_ADAM_JUMP_3
+  - first:
+      213: -2592079926293410916
+    second: SPRITE_ADAM_JUMP_4
+  - first:
+      213: 845167589708299019
+    second: SPRITE_ADAM_JUMP_5
+  - first:
+      213: -2585673655606982166
+    second: SPRITE_ADAM_JUMP_6
+  - first:
+      213: 6736150289730683570
+    second: SPRITE_ADAM_JUMP_7
+  - first:
+      213: 5526677458937144576
+    second: SPRITE_ADAM_JUMP_8
+  - first:
+      213: -6944173268092477896
+    second: SPRITE_ADAM_JUMP_9
+  - first:
+      213: -598104811351780929
+    second: SPRITE_ADAM_JUMP_10
+  - first:
+      213: 4391027259445721305
+    second: SPRITE_ADAM_JUMP_11
+  - first:
+      213: -861884135044903584
+    second: SPRITE_ADAM_JUMP_12
+  - first:
+      213: -2367123623660883472
+    second: SPRITE_ADAM_JUMP_13
+  - first:
+      213: 6197949313245326212
+    second: SPRITE_ADAM_JUMP_14
+  - first:
+      213: -3328797472247394625
+    second: SPRITE_ADAM_JUMP_15
+  - first:
+      213: -4457395226615298535
+    second: SPRITE_ADAM_JUMP_16
+  - first:
+      213: -1509281789519186570
+    second: SPRITE_ADAM_JUMP_17
+  - first:
+      213: 9149437011179940520
+    second: SPRITE_ADAM_JUMP_18
+  - first:
+      213: -8017869392264127527
+    second: SPRITE_ADAM_JUMP_19
+  - first:
+      213: 5468695384631702053
+    second: SPRITE_ADAM_JUMP_20
+  - first:
+      213: 3375795741193558424
+    second: SPRITE_ADAM_JUMP_21
+  - first:
+      213: -3732056660862496584
+    second: SPRITE_ADAM_JUMP_22
+  - first:
+      213: 1986561533748017994
+    second: SPRITE_ADAM_JUMP_23
+  - first:
+      213: -4505712212111491522
+    second: SPRITE_ADAM_JUMP_24
+  - first:
+      213: 2008827811591488945
+    second: SPRITE_ADAM_JUMP_25
+  - first:
+      213: -6315125402694124032
+    second: SPRITE_ADAM_JUMP_26
+  - first:
+      213: 282753210304617966
+    second: SPRITE_ADAM_JUMP_27
+  - first:
+      213: -4897298031152195560
+    second: SPRITE_ADAM_JUMP_28
+  - first:
+      213: -4056722593748551366
+    second: SPRITE_ADAM_JUMP_29
+  - first:
+      213: 2767547805714378304
+    second: SPRITE_ADAM_JUMP_30
+  - first:
+      213: -2043803019288826745
+    second: SPRITE_ADAM_JUMP_31
+  - first:
+      213: -5377490134598864962
+    second: SPRITE_ADAM_JUMP_32
+  - first:
+      213: -2452319898291037330
+    second: SPRITE_ADAM_JUMP_33
+  - first:
+      213: -5490393058296401435
+    second: SPRITE_ADAM_JUMP_34
+  - first:
+      213: 5921364798654414732
+    second: SPRITE_ADAM_JUMP_35
+  - first:
+      213: -9161832718701548311
+    second: SPRITE_ADAM_JUMP_36
+  - first:
+      213: -8839049183725819670
+    second: SPRITE_ADAM_JUMP_37
+  - first:
+      213: 4639657148605376035
+    second: SPRITE_ADAM_JUMP_38
+  - first:
+      213: -8821069824520285252
+    second: SPRITE_ADAM_JUMP_39
+  - first:
+      213: -7952332071405800909
+    second: SPRITE_ADAM_JUMP_40
+  - first:
+      213: -5925275810605136119
+    second: SPRITE_ADAM_JUMP_41
+  - first:
+      213: 6572337768678523619
+    second: SPRITE_ADAM_JUMP_42
+  - first:
+      213: -3095786792304922071
+    second: SPRITE_ADAM_JUMP_43
+  - first:
+      213: 3029505246111092707
+    second: SPRITE_ADAM_JUMP_44
+  - first:
+      213: -5612830785667055910
+    second: SPRITE_ADAM_JUMP_45
+  - first:
+      213: -5350193532315823366
+    second: SPRITE_ADAM_JUMP_46
+  - first:
+      213: 5890617928393689634
+    second: SPRITE_ADAM_JUMP_47
+  - first:
+      213: -4361322729060482264
+    second: SPRITE_ADAM_JUMP_48
+  - first:
+      213: 5779773460690457078
+    second: SPRITE_ADAM_JUMP_49
+  - first:
+      213: -3376170201083881671
+    second: SPRITE_ADAM_JUMP_50
+  - first:
+      213: 1731831148192387416
+    second: SPRITE_ADAM_JUMP_51
+  - first:
+      213: -1422975201006005224
+    second: SPRITE_ADAM_JUMP_52
+  - first:
+      213: -9073004549921414224
+    second: SPRITE_ADAM_JUMP_53
+  - first:
+      213: -6375920131685851501
+    second: SPRITE_ADAM_JUMP_54
+  - first:
+      213: -5439276279471789386
+    second: SPRITE_ADAM_JUMP_55
+  - first:
+      213: 4642377323744698166
+    second: SPRITE_ADAM_JUMP_56
+  - first:
+      213: 1279577519657247803
+    second: SPRITE_ADAM_JUMP_57
+  - first:
+      213: -2201550883653563564
+    second: SPRITE_ADAM_JUMP_58
+  - first:
+      213: 1129669135153133818
+    second: SPRITE_ADAM_JUMP_59
+  - first:
+      213: -6351824299231122627
+    second: SPRITE_ADAM_JUMP_60
+  - first:
+      213: 3440750317293115779
+    second: SPRITE_ADAM_JUMP_61
+  - first:
+      213: 2965169781099164625
+    second: SPRITE_ADAM_JUMP_62
+  - first:
+      213: 5279662552613484390
+    second: SPRITE_ADAM_JUMP_63
+  - first:
+      213: -8011171438678938462
+    second: SPRITE_ADAM_JUMP_64
+  - first:
+      213: -7879098657819549143
+    second: SPRITE_ADAM_JUMP_65
+  - first:
+      213: -4399541370726020938
+    second: SPRITE_ADAM_JUMP_66
+  - first:
+      213: -9097116517177956807
+    second: SPRITE_ADAM_JUMP_67
+  - first:
+      213: -1184265966307708271
+    second: SPRITE_ADAM_JUMP_68
+  - first:
+      213: 7356968237392447547
+    second: SPRITE_ADAM_JUMP_69
+  - first:
+      213: -417510476320311457
+    second: SPRITE_ADAM_JUMP_70
+  - first:
+      213: 5677868059935905465
+    second: SPRITE_ADAM_JUMP_71
+  - first:
+      213: -4869814353995650358
+    second: SPRITE_ADAM_JUMP_72
+  - first:
+      213: -4250249459948363635
+    second: SPRITE_ADAM_JUMP_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f3849956794ca41a6076c414009e04
+      internalID: -1655865582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e58e812be5736a4e941dbd982c39242
+      internalID: -1122762824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cf8aa8e3d3755498ca0f9ab0754e51
+      internalID: 24194378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ded83d3574a8e4bb992ae0cb1d01b9
+      internalID: -742332668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3397b7862d4ffc1498ae9a2cc24dd167
+      internalID: 1227849540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8850d7c5e67334eb3b693da11137fd
+      internalID: 98914733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297024f3cae4ecb4198a64e43be8b398
+      internalID: 748994080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe85fedf9070dcc4cad8b36e954f8fa8
+      internalID: -56362257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876f056db435da34a92a906945f34d17
+      internalID: -1962536547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954612ef46f9a0343a46748ddbe22e40
+      internalID: 439121099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dc18579a5bb9941b721eef22be8a95
+      internalID: 149046647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11a417cea1aec14cb798d998fa31a2d
+      internalID: 1805795603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dc1594404504a4ea4c640faaed08f4
+      internalID: -968017462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_13
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444fd66063e587b4fbe3b059da01bbf7
+      internalID: 1494874764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b8dfc8cbdd6de45a05395dfd6c2c51
+      internalID: -1415586454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_15
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46dcdde5312b8842895a0c3d3480162
+      internalID: -1306758840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c352282ba0ca34cab6b57a4808d896
+      internalID: -308799289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a8517ae5ee11d47bfc451e0052c986
+      internalID: 1188578400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717b883fa3ef6d44aa3895a088853bf6
+      internalID: -438987005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac958d584f8b894d89824a29111596b
+      internalID: 1816087796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627cd1e129d84a848b09d7d6d6afb1e8
+      internalID: 993458185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332fcee18de6e294d9ba958dfd1e8a21
+      internalID: -814755367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4de8602c268ef419494bb516f484d6
+      internalID: 132467276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_23
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203d3e8d96f75864a9fec0fd7b02312d
+      internalID: -480327330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fa7ff4c1bb79e4483eee5c2bc7a04e
+      internalID: -714257323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3462a5a04b66abe4fb3de7917971bcf5
+      internalID: -1820944385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b805720ba4235e4e869af611a9e8f3e
+      internalID: -2117810012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_27
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7928c92a6e23fcc4eb566ad5a282e3e3
+      internalID: -714922815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bed781c6dc47248afe5d96c52802bb
+      internalID: 850498620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_29
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4a2f7662cff4f418ea56db5b0de847
+      internalID: 1434218157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_30
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de61a3a1f70c874dadb9a106f264345
+      internalID: -191103090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_31
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b84a7fd8bfa04c49a113c56ac139e9a
+      internalID: -1984181557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec139626a9ffe324e86bf8f23065f867
+      internalID: -653001527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadcf242eb78e0948b7afd9ddf0fa888
+      internalID: -1985156659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_34
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338a554adee4c244b9ad136e93439412
+      internalID: -2002838100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_35
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acf942f76c1b3048b7e1018c7c95910
+      internalID: 57172406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d627f4dd8d4fe34382ca2ba48788bc3
+      internalID: -1137056838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_37
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d974aaa86267a4bbd59e7b6937555f
+      internalID: 1673443263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_38
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ad4fb1e3b7ea74c971c74e49d784ea
+      internalID: -653437684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_JUMP_39
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccd3b92bd2a81b4b8c1dd4ed5808446
+      internalID: -2064388729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 10b88cb0fb5bde24ea917113f7943f47
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPRITE_ADAM_JUMP_0: -1655865582
+      SPRITE_ADAM_JUMP_1: -1122762824
+      SPRITE_ADAM_JUMP_10: 149046647
+      SPRITE_ADAM_JUMP_11: 1805795603
+      SPRITE_ADAM_JUMP_12: -968017462
+      SPRITE_ADAM_JUMP_13: 1494874764
+      SPRITE_ADAM_JUMP_14: -1415586454
+      SPRITE_ADAM_JUMP_15: -1306758840
+      SPRITE_ADAM_JUMP_16: -308799289
+      SPRITE_ADAM_JUMP_17: 1188578400
+      SPRITE_ADAM_JUMP_18: -438987005
+      SPRITE_ADAM_JUMP_19: 1816087796
+      SPRITE_ADAM_JUMP_2: 24194378
+      SPRITE_ADAM_JUMP_20: 993458185
+      SPRITE_ADAM_JUMP_21: -814755367
+      SPRITE_ADAM_JUMP_22: 132467276
+      SPRITE_ADAM_JUMP_23: -480327330
+      SPRITE_ADAM_JUMP_24: -714257323
+      SPRITE_ADAM_JUMP_25: -1820944385
+      SPRITE_ADAM_JUMP_26: -2117810012
+      SPRITE_ADAM_JUMP_27: -714922815
+      SPRITE_ADAM_JUMP_28: 850498620
+      SPRITE_ADAM_JUMP_29: 1434218157
+      SPRITE_ADAM_JUMP_3: -742332668
+      SPRITE_ADAM_JUMP_30: -191103090
+      SPRITE_ADAM_JUMP_31: -1984181557
+      SPRITE_ADAM_JUMP_32: -653001527
+      SPRITE_ADAM_JUMP_33: -1985156659
+      SPRITE_ADAM_JUMP_34: -2002838100
+      SPRITE_ADAM_JUMP_35: 57172406
+      SPRITE_ADAM_JUMP_36: -1137056838
+      SPRITE_ADAM_JUMP_37: 1673443263
+      SPRITE_ADAM_JUMP_38: -653437684
+      SPRITE_ADAM_JUMP_39: -2064388729
+      SPRITE_ADAM_JUMP_4: 1227849540
+      SPRITE_ADAM_JUMP_5: 98914733
+      SPRITE_ADAM_JUMP_6: 748994080
+      SPRITE_ADAM_JUMP_7: -56362257
+      SPRITE_ADAM_JUMP_8: -1962536547
+      SPRITE_ADAM_JUMP_9: 439121099
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

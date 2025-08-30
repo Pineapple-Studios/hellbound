@@ -17,6 +17,9 @@ public class ScreenController : MonoBehaviour
     [SerializeField] private InputActionAsset inputActions;
     private InputAction anyKeyAction;
 
+    [Header("Animator")]
+    [SerializeField] Animator _ac;
+
     private float _timeCounter = 0f;
     private bool _hasTriggered = false;
 
@@ -55,10 +58,10 @@ public class ScreenController : MonoBehaviour
     private void OnAnyKeyPressed(InputAction.CallbackContext context)
     {
         if (_hasTriggered) return;
-        LoadNextScene();
+        _ac.Play("clip_TransitionMenu");
     }
 
-    private void LoadNextScene()
+    public void LoadNextScene()
     {
         _hasTriggered = true;
         SceneManager.LoadScene(nextSceneName);

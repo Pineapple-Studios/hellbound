@@ -417,8 +417,10 @@ MonoBehaviour:
   Path: ../hellbound-sound-middleware/Build/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638854552341109536
-  FileSizes: []
+  lastModified: 638869678826639834
+  FileSizes:
+  - Name: Desktop
+    Value: 5025568
   Exists: 1
 --- !u!114 &-803387324337242845
 MonoBehaviour:
@@ -581,7 +583,7 @@ MonoBehaviour:
   - {fileID: -3106786652836905241}
   StringsBanks:
   - {fileID: 1763183392809764697}
-  cacheTime: 638854552341139940
+  cacheTime: 638869678826719908
   cacheVersion: 131624
 --- !u!114 &951400232257284221
 MonoBehaviour:
@@ -755,14 +757,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Desktop/Master.strings.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
   Path: ../hellbound-sound-middleware/Build/Desktop/Master.strings.bank
-  Name: Desktop/Master.strings
+  Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638854552341139940
+  lastModified: 638869678826719908
   FileSizes:
-  - Name: 
+  - Name: Desktop
     Value: 2572
   Exists: 1
 --- !u!114 &2089896997558196726

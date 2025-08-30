@@ -128,7 +128,7 @@ public class ResSelector : MonoBehaviour
     private void UpdateText()
     {
         var res = filteredRes[currentResolutionIndex];
-        txtResolution.text = $"< {res.width} x {res.height} - {res.refreshRateRatio.value:00} Hz >";
+        txtResolution.text = $"{res.width} X {res.height} - {res.refreshRateRatio.value:00} Hz";
         EventSystem.current.SetSelectedGameObject(txtResolution.gameObject);
     }
 

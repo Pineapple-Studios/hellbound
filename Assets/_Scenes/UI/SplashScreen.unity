@@ -371,6 +371,7 @@ MonoBehaviour:
   nextSceneName: PressAnyKey
   timeToGo: 3
   inputActions: {fileID: -944628639613478452, guid: 1d1ffecff21fbae48879404fbbdad4fb, type: 3}
+  _ac: {fileID: 0}
 --- !u!4 &1735239855
 Transform:
   m_ObjectHideFlags: 0
