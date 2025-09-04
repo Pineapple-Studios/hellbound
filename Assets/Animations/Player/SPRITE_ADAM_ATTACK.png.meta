@@ -1,0 +1,1377 @@
+fileFormatVersion: 2
+guid: 8f62acde42a83894cbb0b9b8421a2278
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2217667985668578259
+    second: SPRITE_ADAM_ATTACK_0
+  - first:
+      213: -6764083011030999676
+    second: SPRITE_ADAM_ATTACK_1
+  - first:
+      213: -7973299917545372617
+    second: SPRITE_ADAM_ATTACK_2
+  - first:
+      213: -1784187240136618995
+    second: SPRITE_ADAM_ATTACK_3
+  - first:
+      213: -5836377450061715077
+    second: SPRITE_ADAM_ATTACK_4
+  - first:
+      213: -8247385640315456245
+    second: SPRITE_ADAM_ATTACK_5
+  - first:
+      213: 7223587830434959436
+    second: SPRITE_ADAM_ATTACK_6
+  - first:
+      213: -6550707219449430588
+    second: SPRITE_ADAM_ATTACK_7
+  - first:
+      213: -4927403215199074952
+    second: SPRITE_ADAM_ATTACK_8
+  - first:
+      213: -6711459269936388241
+    second: SPRITE_ADAM_ATTACK_9
+  - first:
+      213: -2578605318281961429
+    second: SPRITE_ADAM_ATTACK_10
+  - first:
+      213: -8915211508598782905
+    second: SPRITE_ADAM_ATTACK_11
+  - first:
+      213: -5606682059766903888
+    second: SPRITE_ADAM_ATTACK_12
+  - first:
+      213: 8196252604645301673
+    second: SPRITE_ADAM_ATTACK_13
+  - first:
+      213: -4039190388590437453
+    second: SPRITE_ADAM_ATTACK_14
+  - first:
+      213: -3800186760652201543
+    second: SPRITE_ADAM_ATTACK_15
+  - first:
+      213: -9102591276063961849
+    second: SPRITE_ADAM_ATTACK_16
+  - first:
+      213: 5992482433641021728
+    second: SPRITE_ADAM_ATTACK_17
+  - first:
+      213: -8278712643948455441
+    second: SPRITE_ADAM_ATTACK_18
+  - first:
+      213: -8762848614043774698
+    second: SPRITE_ADAM_ATTACK_19
+  - first:
+      213: 3522949004897659811
+    second: SPRITE_ADAM_ATTACK_20
+  - first:
+      213: -1610773910171913350
+    second: SPRITE_ADAM_ATTACK_21
+  - first:
+      213: 6527097902116940725
+    second: SPRITE_ADAM_ATTACK_22
+  - first:
+      213: -8522436462555566194
+    second: SPRITE_ADAM_ATTACK_23
+  - first:
+      213: -3098099158257452530
+    second: SPRITE_ADAM_ATTACK_24
+  - first:
+      213: -8857857879175333265
+    second: SPRITE_ADAM_ATTACK_25
+  - first:
+      213: -9064863049196313223
+    second: SPRITE_ADAM_ATTACK_26
+  - first:
+      213: -4955844552534388933
+    second: SPRITE_ADAM_ATTACK_27
+  - first:
+      213: 2482505602194484568
+    second: SPRITE_ADAM_ATTACK_28
+  - first:
+      213: 7473720900406963869
+    second: SPRITE_ADAM_ATTACK_29
+  - first:
+      213: 2262572456557977098
+    second: SPRITE_ADAM_ATTACK_30
+  - first:
+      213: 361458390077773849
+    second: SPRITE_ADAM_ATTACK_31
+  - first:
+      213: 1823153961019631731
+    second: SPRITE_ADAM_ATTACK_32
+  - first:
+      213: -7382178490166661998
+    second: SPRITE_ADAM_ATTACK_33
+  - first:
+      213: -8809956542094011119
+    second: SPRITE_ADAM_ATTACK_34
+  - first:
+      213: -8897619333057423546
+    second: SPRITE_ADAM_ATTACK_35
+  - first:
+      213: -7070944482764430333
+    second: SPRITE_ADAM_ATTACK_36
+  - first:
+      213: 8941760987020008875
+    second: SPRITE_ADAM_ATTACK_37
+  - first:
+      213: -793588186469519606
+    second: SPRITE_ADAM_ATTACK_38
+  - first:
+      213: 6168140725907950744
+    second: SPRITE_ADAM_ATTACK_39
+  - first:
+      213: -1399700294412148049
+    second: SPRITE_ADAM_ATTACK_40
+  - first:
+      213: -992510720457643581
+    second: SPRITE_ADAM_ATTACK_41
+  - first:
+      213: 629016250825328399
+    second: SPRITE_ADAM_ATTACK_42
+  - first:
+      213: -4001056135438622259
+    second: SPRITE_ADAM_ATTACK_43
+  - first:
+      213: -3204145326426867545
+    second: SPRITE_ADAM_ATTACK_44
+  - first:
+      213: -9145528279592483095
+    second: SPRITE_ADAM_ATTACK_45
+  - first:
+      213: -5843961108134667622
+    second: SPRITE_ADAM_ATTACK_46
+  - first:
+      213: -142319514626356600
+    second: SPRITE_ADAM_ATTACK_47
+  - first:
+      213: -7372884272863803352
+    second: SPRITE_ADAM_ATTACK_48
+  - first:
+      213: 6518142385384882442
+    second: SPRITE_ADAM_ATTACK_49
+  - first:
+      213: 7241434874587783186
+    second: SPRITE_ADAM_ATTACK_50
+  - first:
+      213: -1693252313191169120
+    second: SPRITE_ADAM_ATTACK_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3601
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b45d8491b62a54e980a63c2356b16d
+      internalID: -86571309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3601
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e7c316875025741a0887de5561afcc
+      internalID: 1495468078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3601
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01415fea8a8c0db47ba3cfcda58c0ccb
+      internalID: 77286201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3601
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac671fb805b37c040a515a327d49df08
+      internalID: 1562195989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3601
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556b0f022abed3b43b7953a2c35e98f1
+      internalID: -653808216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3601
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00376f603cb28714c81a365c7ca0989c
+      internalID: -178388568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3106
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ab79323fd464447a0519e53ad77879
+      internalID: -337749027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3106
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788516e3454db0148b6b37ba1696b502
+      internalID: -1229710754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3106
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c439ab2d6c80a4419d38d44a8e24dc6
+      internalID: -530494060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3106
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24af5da6dfe065543adeed79badd2f1c
+      internalID: -617567021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3106
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e290e0f663aee4d80eeeb66e168a2e
+      internalID: 1549686917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_11
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3106
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e2db1b53fe8304084f196bdb524696
+      internalID: 1214404970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2611
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6118e4c560462cd42a50036caa7a6d99
+      internalID: 1932954744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2611
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040ac989f84c47440b8ff9ff38c5c039
+      internalID: 663958804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2611
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96efe1af940be9543abac7c5d3b0f2e3
+      internalID: 997883838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2611
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e092e9956d6d3004f98ef8639d712661
+      internalID: -1774699734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2611
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802e2a526a9fb8a4695d1bdc99907b44
+      internalID: 1244962809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_17
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2611
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf973afe30149040a35dd7a2b143326
+      internalID: 956224622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2116
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644e68ebdebaca7429aa5abba7224f98
+      internalID: -2007222037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2116
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9783fe2add45d4ba137f410ae555ed
+      internalID: -1840512313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_20
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2116
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab12a7b9e625572469b37b62b5f9e7ac
+      internalID: 1403509737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_21
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2116
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c379fe193665c3e4f891d40af681fe5d
+      internalID: -2016779821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2116
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45d5b1e4c57c414095dac95141072d8
+      internalID: 1524816073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_23
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2116
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db136d2e5d3b4a9448fbad4fd70ef685
+      internalID: -828744571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1621
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cd951a3d31a3c47a4271dc229490c9
+      internalID: -636278437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1621
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1fe9ae3a0296143bcf03569f552b4e
+      internalID: -1051109047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1621
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aabd6934b7e214fbf5e51e53b9b896
+      internalID: -1068204914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1621
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4933ffab01e224f92e7ce63d755b07
+      internalID: -1419076914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1621
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869a919e9838474428919cb8ed8870d0
+      internalID: 82365149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_29
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1621
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40560973bd1445439433df00a1002a0
+      internalID: 751209418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1126
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd9c55d1cb3d0c47810d6c40f402f66
+      internalID: 17086855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_31
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1126
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82d23f988112314b9d9e21696a8f33e
+      internalID: -662255316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_32
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1126
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23511418ab0f62349a55c33c8a0f048a
+      internalID: 954183981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_33
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1126
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfe10de10a652941b3a0feb2af07207
+      internalID: -1846385027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_34
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1126
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b6cc08f62c6004a865955bf0307750
+      internalID: 1213916850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_35
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1126
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1f413e3002ad94081b827d897b81bd
+      internalID: 838541453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 631
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee11ba69d1f4cab45b1d31a26478778f
+      internalID: 345285684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 631
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbe3da826b9c4f44bc3daab43eb225b
+      internalID: -1891658118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_38
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 631
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8350c75dbbb4e43bfbac18865fdce2
+      internalID: -1393743769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_39
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 631
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d78f8b4586f4234384c588c2e46eb20
+      internalID: 1366916976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_40
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 631
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae211290f794603499a4716b0f02d910
+      internalID: 1729489296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_41
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 631
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1a85123893cf2458c2b1f6c88663dd
+      internalID: 126447126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d447a5fb66b8ec459d50a3cecba4dce
+      internalID: 25889057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 136
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15dc75e8645ab945bcb58d405d50f85
+      internalID: -240317672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_44
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 136
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50be1521e6267648a8536c50db18feb
+      internalID: 649813994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_45
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 136
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1f6f6edbcb9d3419ea88835cc8c46d
+      internalID: -646825536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_46
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 136
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3d6fb51edf3594ca9ea63499c08f51
+      internalID: -723765029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_ATTACK_47
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 136
+        width: 300
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9d8abea8f951641934bd419f5b17e7
+      internalID: 1566405354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 194682d6a3900c148a9bbea7abb80616
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPRITE_ADAM_ATTACK_0: -86571309
+      SPRITE_ADAM_ATTACK_1: 1495468078
+      SPRITE_ADAM_ATTACK_10: 1549686917
+      SPRITE_ADAM_ATTACK_11: 1214404970
+      SPRITE_ADAM_ATTACK_12: 1932954744
+      SPRITE_ADAM_ATTACK_13: 663958804
+      SPRITE_ADAM_ATTACK_14: 997883838
+      SPRITE_ADAM_ATTACK_15: -1774699734
+      SPRITE_ADAM_ATTACK_16: 1244962809
+      SPRITE_ADAM_ATTACK_17: 956224622
+      SPRITE_ADAM_ATTACK_18: -2007222037
+      SPRITE_ADAM_ATTACK_19: -1840512313
+      SPRITE_ADAM_ATTACK_2: 77286201
+      SPRITE_ADAM_ATTACK_20: 1403509737
+      SPRITE_ADAM_ATTACK_21: -2016779821
+      SPRITE_ADAM_ATTACK_22: 1524816073
+      SPRITE_ADAM_ATTACK_23: -828744571
+      SPRITE_ADAM_ATTACK_24: -636278437
+      SPRITE_ADAM_ATTACK_25: -1051109047
+      SPRITE_ADAM_ATTACK_26: -1068204914
+      SPRITE_ADAM_ATTACK_27: -1419076914
+      SPRITE_ADAM_ATTACK_28: 82365149
+      SPRITE_ADAM_ATTACK_29: 751209418
+      SPRITE_ADAM_ATTACK_3: 1562195989
+      SPRITE_ADAM_ATTACK_30: 17086855
+      SPRITE_ADAM_ATTACK_31: -662255316
+      SPRITE_ADAM_ATTACK_32: 954183981
+      SPRITE_ADAM_ATTACK_33: -1846385027
+      SPRITE_ADAM_ATTACK_34: 1213916850
+      SPRITE_ADAM_ATTACK_35: 838541453
+      SPRITE_ADAM_ATTACK_36: 345285684
+      SPRITE_ADAM_ATTACK_37: -1891658118
+      SPRITE_ADAM_ATTACK_38: -1393743769
+      SPRITE_ADAM_ATTACK_39: 1366916976
+      SPRITE_ADAM_ATTACK_4: -653808216
+      SPRITE_ADAM_ATTACK_40: 1729489296
+      SPRITE_ADAM_ATTACK_41: 126447126
+      SPRITE_ADAM_ATTACK_42: 25889057
+      SPRITE_ADAM_ATTACK_43: -240317672
+      SPRITE_ADAM_ATTACK_44: 649813994
+      SPRITE_ADAM_ATTACK_45: -646825536
+      SPRITE_ADAM_ATTACK_46: -723765029
+      SPRITE_ADAM_ATTACK_47: 1566405354
+      SPRITE_ADAM_ATTACK_5: -178388568
+      SPRITE_ADAM_ATTACK_6: -337749027
+      SPRITE_ADAM_ATTACK_7: -1229710754
+      SPRITE_ADAM_ATTACK_8: -530494060
+      SPRITE_ADAM_ATTACK_9: -617567021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

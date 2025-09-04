@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: 51179a6435005e74fae0e8570567d171
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7059273411816289713
+    second: SPRITE_ADAM_DEATH_0
+  - first:
+      213: -2703442638157977122
+    second: SPRITE_ADAM_DEATH_1
+  - first:
+      213: 2387716864736475548
+    second: SPRITE_ADAM_DEATH_2
+  - first:
+      213: -3936441957138025048
+    second: SPRITE_ADAM_DEATH_3
+  - first:
+      213: 8456690050477465482
+    second: SPRITE_ADAM_DEATH_4
+  - first:
+      213: 4091339121320849411
+    second: SPRITE_ADAM_DEATH_5
+  - first:
+      213: 7715283683112797509
+    second: SPRITE_ADAM_DEATH_6
+  - first:
+      213: -928346196642874748
+    second: SPRITE_ADAM_DEATH_7
+  - first:
+      213: 2537865615643051173
+    second: SPRITE_ADAM_DEATH_8
+  - first:
+      213: -4640033527099128473
+    second: SPRITE_ADAM_DEATH_9
+  - first:
+      213: 8392399948392620000
+    second: SPRITE_ADAM_DEATH_10
+  - first:
+      213: 7834165325752471052
+    second: SPRITE_ADAM_DEATH_11
+  - first:
+      213: 1148486038884740244
+    second: SPRITE_ADAM_DEATH_12
+  - first:
+      213: -8332604308077730647
+    second: SPRITE_ADAM_DEATH_13
+  - first:
+      213: -7526371320632068632
+    second: SPRITE_ADAM_DEATH_14
+  - first:
+      213: 8889792677994160201
+    second: SPRITE_ADAM_DEATH_15
+  - first:
+      213: 7318883368742028668
+    second: SPRITE_ADAM_DEATH_16
+  - first:
+      213: -4479622629611225311
+    second: SPRITE_ADAM_DEATH_17
+  - first:
+      213: 641184536741050155
+    second: SPRITE_ADAM_DEATH_18
+  - first:
+      213: -6002132272028581343
+    second: SPRITE_ADAM_DEATH_19
+  - first:
+      213: 7251670749764568057
+    second: SPRITE_ADAM_DEATH_20
+  - first:
+      213: -2356657705488143103
+    second: SPRITE_ADAM_DEATH_21
+  - first:
+      213: 1710110291124358332
+    second: SPRITE_ADAM_DEATH_22
+  - first:
+      213: -6111172976411939831
+    second: SPRITE_ADAM_DEATH_23
+  - first:
+      213: -3643593487530947163
+    second: SPRITE_ADAM_DEATH_24
+  - first:
+      213: -3011291726452779365
+    second: SPRITE_ADAM_DEATH_25
+  - first:
+      213: 386836590110112355
+    second: SPRITE_ADAM_DEATH_26
+  - first:
+      213: -7688532941967323003
+    second: SPRITE_ADAM_DEATH_27
+  - first:
+      213: -308784331394271342
+    second: SPRITE_ADAM_DEATH_28
+  - first:
+      213: 2198319929489320410
+    second: SPRITE_ADAM_DEATH_29
+  - first:
+      213: 5498955283335036627
+    second: SPRITE_ADAM_DEATH_30
+  - first:
+      213: 2651613379054197020
+    second: SPRITE_ADAM_DEATH_31
+  - first:
+      213: -8082670912257301307
+    second: SPRITE_ADAM_DEATH_32
+  - first:
+      213: 2779236901156092265
+    second: SPRITE_ADAM_DEATH_33
+  - first:
+      213: 2561810493564428124
+    second: SPRITE_ADAM_DEATH_34
+  - first:
+      213: 2289582084510824946
+    second: SPRITE_ADAM_DEATH_35
+  - first:
+      213: -7888225684527040219
+    second: SPRITE_ADAM_DEATH_36
+  - first:
+      213: -7457129910943500957
+    second: SPRITE_ADAM_DEATH_37
+  - first:
+      213: -925655982237823747
+    second: SPRITE_ADAM_DEATH_38
+  - first:
+      213: 1787668542962581967
+    second: SPRITE_ADAM_DEATH_39
+  - first:
+      213: 8445313717692504214
+    second: SPRITE_ADAM_DEATH_40
+  - first:
+      213: -5185947371564737671
+    second: SPRITE_ADAM_DEATH_41
+  - first:
+      213: 2118189862672485578
+    second: SPRITE_ADAM_DEATH_42
+  - first:
+      213: 2175280933779602731
+    second: SPRITE_ADAM_DEATH_43
+  - first:
+      213: -2432317691136241815
+    second: SPRITE_ADAM_DEATH_44
+  - first:
+      213: -2353078943135845309
+    second: SPRITE_ADAM_DEATH_45
+  - first:
+      213: 7320060522220921369
+    second: SPRITE_ADAM_DEATH_46
+  - first:
+      213: 936500936179621180
+    second: SPRITE_ADAM_DEATH_47
+  - first:
+      213: -3624252764332481215
+    second: SPRITE_ADAM_DEATH_48
+  - first:
+      213: 4109758998163486780
+    second: SPRITE_ADAM_DEATH_49
+  - first:
+      213: 6736538793722944673
+    second: SPRITE_ADAM_DEATH_50
+  - first:
+      213: 8711094304559914741
+    second: SPRITE_ADAM_DEATH_51
+  - first:
+      213: 2174116557547943605
+    second: SPRITE_ADAM_DEATH_52
+  - first:
+      213: -7811530635785764581
+    second: SPRITE_ADAM_DEATH_53
+  - first:
+      213: 4021365214640502590
+    second: SPRITE_ADAM_DEATH_54
+  - first:
+      213: -9001936000168078480
+    second: SPRITE_ADAM_DEATH_55
+  - first:
+      213: -1361701970778061949
+    second: SPRITE_ADAM_DEATH_56
+  - first:
+      213: -7650932049740917130
+    second: SPRITE_ADAM_DEATH_57
+  - first:
+      213: -3051320882545775043
+    second: SPRITE_ADAM_DEATH_58
+  - first:
+      213: -3389208964818435045
+    second: SPRITE_ADAM_DEATH_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca1b353a97d28b4cb74c03470043ae5
+      internalID: 525374828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfc50a56b5df634cac99daafaac3f31
+      internalID: -1001039200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316f83369b0354b4994fdb31cca85c1a
+      internalID: 2003750511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef12e2267e51604f826ad2052971a38
+      internalID: 621680359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f50c9bdb99d804bb039584177bf608
+      internalID: 1523668670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc74ddd9a5300b244a75c665ab047ede
+      internalID: 1751186520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfa8fd9a5b3ab64ba3128141f27b092
+      internalID: -142110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0758150c5ef599043b419bc96e5af04a
+      internalID: 532430364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b98ce9414df32243a79eed08a23d47f
+      internalID: 408896084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_9
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1eeb00b107edc4fa1bd599976ea4ff
+      internalID: -143125622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_10
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957c038dae88a4b4dbe964b07badce1b
+      internalID: -1134865103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_11
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951d13a92ef6a3c4ab8cea00adff7811
+      internalID: -1755141673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_12
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aec9ad6aff772640a9a5aff573574e4
+      internalID: 949866263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_13
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7e06f9dcaa2af468684311da1e33ff
+      internalID: 855025252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_14
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fe8a0443753bc45b387f9c54deb142
+      internalID: -512756945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_15
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2397046d9f8b41c439d8a9358a4098e9
+      internalID: 1125535836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1018638e4f9f744b7a9a4010655784
+      internalID: -1566196890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6221b98b55914644872a23ff3fb64b6
+      internalID: 67084521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895be14ef6a713b4abc483946c533d0f
+      internalID: 1528249051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669c05359be51014eb8dd4fc7b28e9cf
+      internalID: 696792230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b88630b54606b43ac1a37001474d30
+      internalID: -1570982658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00e9521b4dc2d249a0bc6a086e707a1
+      internalID: 503121412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe6d6db3e4401249be6642f55655b51
+      internalID: 268992795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_23
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9abbe5a239ead34db9ea4ef4ba0a499
+      internalID: -633715855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_24
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4009c5327008d244a3e090a2a8009a3
+      internalID: 38216040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_25
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7d88e9709100c40bfb0ddc39a9d17a
+      internalID: -767096411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_26
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a6a8d7d6876e9428f4ccf67aab68f4
+      internalID: 1006782845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_27
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2247c33d53601fd45b0a22ed39f0eb9f
+      internalID: -1604644243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_28
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8075b7e91f89e6a4ba558b66b6c1010c
+      internalID: -2112852355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_29
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f117fa9bb80a4634197d416a4580a307
+      internalID: 1043787457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_30
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3086243d6afdf1246ba7f111a48a6504
+      internalID: 910646581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_31
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d672b14f3b70a9549812df021580ce66
+      internalID: -756409490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7350ef410468ab244922acfe564b4db2
+      internalID: 359228218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cadeb067f0aad94cb43fcf3c0d70b17
+      internalID: 348255610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_34
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d336556d9eee74f479d6f130bc77d231
+      internalID: 1223175856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_35
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8b0a8157e204e4494ae0be3e8569f1
+      internalID: 1673963259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5054f5dcc9c3fdf4883dcf30b564ebf5
+      internalID: 1652493094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_37
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c116528f85ef345b185d608ef8061d
+      internalID: -1795992813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_38
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e714d7301811a7b41bd8cf00537a69e0
+      internalID: 239147831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_39
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acfb4b08f239fc41a4b4ae80b99d71b
+      internalID: -1141275394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_40
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89237f1e995e9a46b73cdd22596fe0d
+      internalID: 1720640110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_41
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc80861247d4f9438d60e92d53a91c1
+      internalID: 1542033959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_42
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdb9a0ecbbfd6947a056fb49d3d7708
+      internalID: 1605749249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_43
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e69567a3511da4b8ea7ff366dc1961
+      internalID: -1555966882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_44
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce5632da55c4be4f88a2ba0db6b5dbd
+      internalID: 310799800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_45
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a67b3bd8b92fe4b8a657ccd46e3cd5
+      internalID: -323900541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_46
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4605655eab972b4f9c35c54a6dba4ef
+      internalID: 1511981649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_47
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96502b7c83677bc4a87bf11252640fc8
+      internalID: -1770550910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3845669b54a88a64da933bcf183c56f9
+      internalID: -375869334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_49
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e16eae1a1bf2c84998dbd6ee2e45c82
+      internalID: 1267805773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_50
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a04ba87d4e84141ad32c697efab102
+      internalID: -1503939529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_51
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de34fd516e2967346a5f53741826a29d
+      internalID: 406191552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_52
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde76da6c833b57469183e7a67fc0353
+      internalID: -395228937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_53
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a945b3c9b22c448bc87759b833c7fc
+      internalID: -1464187603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_54
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2731ead84eff194496b7ee4a2f5d460
+      internalID: 1883433583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_55
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d0d0776649ea84fafaaa9fc76237f8
+      internalID: 249389603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_56
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d784563b76664a47881795d5dc0b1bb
+      internalID: -402536758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_57
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1bd4d91896541438f6959077bf1abc
+      internalID: -1794566407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_58
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380b6dc6f33ecbc48b8a77c2959b3632
+      internalID: 395923161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_DEATH_59
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d108e7e17db7045b427bbfa37ec3f4
+      internalID: 1976348702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5849029b2b7dc1143bf53d086309d070
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPRITE_ADAM_DEATH_0: 525374828
+      SPRITE_ADAM_DEATH_1: -1001039200
+      SPRITE_ADAM_DEATH_10: -1134865103
+      SPRITE_ADAM_DEATH_11: -1755141673
+      SPRITE_ADAM_DEATH_12: 949866263
+      SPRITE_ADAM_DEATH_13: 855025252
+      SPRITE_ADAM_DEATH_14: -512756945
+      SPRITE_ADAM_DEATH_15: 1125535836
+      SPRITE_ADAM_DEATH_16: -1566196890
+      SPRITE_ADAM_DEATH_17: 67084521
+      SPRITE_ADAM_DEATH_18: 1528249051
+      SPRITE_ADAM_DEATH_19: 696792230
+      SPRITE_ADAM_DEATH_2: 2003750511
+      SPRITE_ADAM_DEATH_20: -1570982658
+      SPRITE_ADAM_DEATH_21: 503121412
+      SPRITE_ADAM_DEATH_22: 268992795
+      SPRITE_ADAM_DEATH_23: -633715855
+      SPRITE_ADAM_DEATH_24: 38216040
+      SPRITE_ADAM_DEATH_25: -767096411
+      SPRITE_ADAM_DEATH_26: 1006782845
+      SPRITE_ADAM_DEATH_27: -1604644243
+      SPRITE_ADAM_DEATH_28: -2112852355
+      SPRITE_ADAM_DEATH_29: 1043787457
+      SPRITE_ADAM_DEATH_3: 621680359
+      SPRITE_ADAM_DEATH_30: 910646581
+      SPRITE_ADAM_DEATH_31: -756409490
+      SPRITE_ADAM_DEATH_32: 359228218
+      SPRITE_ADAM_DEATH_33: 348255610
+      SPRITE_ADAM_DEATH_34: 1223175856
+      SPRITE_ADAM_DEATH_35: 1673963259
+      SPRITE_ADAM_DEATH_36: 1652493094
+      SPRITE_ADAM_DEATH_37: -1795992813
+      SPRITE_ADAM_DEATH_38: 239147831
+      SPRITE_ADAM_DEATH_39: -1141275394
+      SPRITE_ADAM_DEATH_4: 1523668670
+      SPRITE_ADAM_DEATH_40: 1720640110
+      SPRITE_ADAM_DEATH_41: 1542033959
+      SPRITE_ADAM_DEATH_42: 1605749249
+      SPRITE_ADAM_DEATH_43: -1555966882
+      SPRITE_ADAM_DEATH_44: 310799800
+      SPRITE_ADAM_DEATH_45: -323900541
+      SPRITE_ADAM_DEATH_46: 1511981649
+      SPRITE_ADAM_DEATH_47: -1770550910
+      SPRITE_ADAM_DEATH_48: -375869334
+      SPRITE_ADAM_DEATH_49: 1267805773
+      SPRITE_ADAM_DEATH_5: 1751186520
+      SPRITE_ADAM_DEATH_50: -1503939529
+      SPRITE_ADAM_DEATH_51: 406191552
+      SPRITE_ADAM_DEATH_52: -395228937
+      SPRITE_ADAM_DEATH_53: -1464187603
+      SPRITE_ADAM_DEATH_54: 1883433583
+      SPRITE_ADAM_DEATH_55: 249389603
+      SPRITE_ADAM_DEATH_56: -402536758
+      SPRITE_ADAM_DEATH_57: -1794566407
+      SPRITE_ADAM_DEATH_58: 395923161
+      SPRITE_ADAM_DEATH_59: 1976348702
+      SPRITE_ADAM_DEATH_6: -142110
+      SPRITE_ADAM_DEATH_7: 532430364
+      SPRITE_ADAM_DEATH_8: 408896084
+      SPRITE_ADAM_DEATH_9: -143125622
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

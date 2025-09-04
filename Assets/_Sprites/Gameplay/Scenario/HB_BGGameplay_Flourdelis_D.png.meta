@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HB_BGGameplay_Flourdelis_D_0: -5880610353112452993
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

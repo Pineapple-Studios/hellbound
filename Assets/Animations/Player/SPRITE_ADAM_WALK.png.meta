@@ -1,0 +1,1217 @@
+fileFormatVersion: 2
+guid: 9dd0b7f356392e440998d3cad697dc4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 119931608447415449
+    second: SPRITE_ADAM_WALK_0
+  - first:
+      213: -4775513334491087439
+    second: SPRITE_ADAM_WALK_1
+  - first:
+      213: 1968486305698434946
+    second: SPRITE_ADAM_WALK_2
+  - first:
+      213: 5961636827502999814
+    second: SPRITE_ADAM_WALK_3
+  - first:
+      213: 1455683035369795127
+    second: SPRITE_ADAM_WALK_4
+  - first:
+      213: -6106092629515430382
+    second: SPRITE_ADAM_WALK_5
+  - first:
+      213: 5973928035738845869
+    second: SPRITE_ADAM_WALK_6
+  - first:
+      213: 4835907212507006230
+    second: SPRITE_ADAM_WALK_7
+  - first:
+      213: 3659394856839392477
+    second: SPRITE_ADAM_WALK_8
+  - first:
+      213: -8253307217732554319
+    second: SPRITE_ADAM_WALK_9
+  - first:
+      213: -3866311941867523622
+    second: SPRITE_ADAM_WALK_10
+  - first:
+      213: 5880076785757592932
+    second: SPRITE_ADAM_WALK_11
+  - first:
+      213: -8774722404753240704
+    second: SPRITE_ADAM_WALK_12
+  - first:
+      213: 8027075308166162863
+    second: SPRITE_ADAM_WALK_13
+  - first:
+      213: -105721806764604296
+    second: SPRITE_ADAM_WALK_14
+  - first:
+      213: 98367839007352830
+    second: SPRITE_ADAM_WALK_15
+  - first:
+      213: -1182775070706661407
+    second: SPRITE_ADAM_WALK_16
+  - first:
+      213: 8694670952521926529
+    second: SPRITE_ADAM_WALK_17
+  - first:
+      213: -6338837142683576894
+    second: SPRITE_ADAM_WALK_18
+  - first:
+      213: 4433407916042141586
+    second: SPRITE_ADAM_WALK_19
+  - first:
+      213: 8724121202356766455
+    second: SPRITE_ADAM_WALK_20
+  - first:
+      213: -7230381741850338284
+    second: SPRITE_ADAM_WALK_21
+  - first:
+      213: 2700435931526011928
+    second: SPRITE_ADAM_WALK_22
+  - first:
+      213: -8232954406337736529
+    second: SPRITE_ADAM_WALK_23
+  - first:
+      213: 3458999677060803402
+    second: SPRITE_ADAM_WALK_24
+  - first:
+      213: 3057585876662549367
+    second: SPRITE_ADAM_WALK_25
+  - first:
+      213: 7012273078687554650
+    second: SPRITE_ADAM_WALK_26
+  - first:
+      213: -3074025463616783927
+    second: SPRITE_ADAM_WALK_27
+  - first:
+      213: -5252468222685690219
+    second: SPRITE_ADAM_WALK_28
+  - first:
+      213: -7221627768519962110
+    second: SPRITE_ADAM_WALK_29
+  - first:
+      213: 8878672275681391712
+    second: SPRITE_ADAM_WALK_30
+  - first:
+      213: 8651365630894172920
+    second: SPRITE_ADAM_WALK_31
+  - first:
+      213: 8132007805321184472
+    second: SPRITE_ADAM_WALK_32
+  - first:
+      213: 8573867626180101233
+    second: SPRITE_ADAM_WALK_33
+  - first:
+      213: -2259919818296756748
+    second: SPRITE_ADAM_WALK_34
+  - first:
+      213: 8534382586900943200
+    second: SPRITE_ADAM_WALK_35
+  - first:
+      213: -7753768962631354784
+    second: SPRITE_ADAM_WALK_36
+  - first:
+      213: 5776760874894479781
+    second: SPRITE_ADAM_WALK_37
+  - first:
+      213: -748632367097705757
+    second: SPRITE_ADAM_WALK_38
+  - first:
+      213: -5521694122337227198
+    second: SPRITE_ADAM_WALK_39
+  - first:
+      213: 4679432027422810289
+    second: SPRITE_ADAM_WALK_40
+  - first:
+      213: -7796664459777993257
+    second: SPRITE_ADAM_WALK_41
+  - first:
+      213: 2860223941283684942
+    second: SPRITE_ADAM_WALK_42
+  - first:
+      213: -5729856193976627610
+    second: SPRITE_ADAM_WALK_43
+  - first:
+      213: -8600039987659423132
+    second: SPRITE_ADAM_WALK_44
+  - first:
+      213: 1414572784493044831
+    second: SPRITE_ADAM_WALK_45
+  - first:
+      213: -5922762800923816353
+    second: SPRITE_ADAM_WALK_46
+  - first:
+      213: -282820658616609206
+    second: SPRITE_ADAM_WALK_47
+  - first:
+      213: -3273379126562746564
+    second: SPRITE_ADAM_WALK_48
+  - first:
+      213: -5597380555814046934
+    second: SPRITE_ADAM_WALK_49
+  - first:
+      213: 4257680835284952623
+    second: SPRITE_ADAM_WALK_50
+  - first:
+      213: -4611603520671297072
+    second: SPRITE_ADAM_WALK_51
+  - first:
+      213: -4964028932099827383
+    second: SPRITE_ADAM_WALK_52
+  - first:
+      213: -5623105914563902697
+    second: SPRITE_ADAM_WALK_53
+  - first:
+      213: 8147601737910266186
+    second: SPRITE_ADAM_WALK_54
+  - first:
+      213: -3104285016791035143
+    second: SPRITE_ADAM_WALK_55
+  - first:
+      213: 5748637385127753392
+    second: SPRITE_ADAM_WALK_56
+  - first:
+      213: 3919512448868902390
+    second: SPRITE_ADAM_WALK_57
+  - first:
+      213: -8774015616976627139
+    second: SPRITE_ADAM_WALK_58
+  - first:
+      213: 1052205831675528781
+    second: SPRITE_ADAM_WALK_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5415c3f27733b8c43a0fcaec51371a7d
+      internalID: -191733204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca86ad9eab9c9e49b1583610e35d241
+      internalID: -1710500955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aea222f776c16e42b1fa52fcf746dd9
+      internalID: 475492828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce4c1d8fb5bbfd42b7750fe16ff0023
+      internalID: -1798850693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab906abc7b052644af34cd6f3cc5dfd
+      internalID: -1549977272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b475660ac53a1294fac36affdae6d75c
+      internalID: -260378283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83e4df0b015d2e41be75d42e7a3d389
+      internalID: -411867530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1648
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d82f16579ece7d4b969ddc1b075fb8a
+      internalID: -1061941539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7694a113e07802f4b81bb23a9f59b492
+      internalID: 1136732683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb3a285c1c68cb48bff0d864709d1aa
+      internalID: 257887316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9849582cb4fb5524dbb12559836a65de
+      internalID: 1368905319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a7ced662f467e4884dc181acd4e1b1
+      internalID: 959842882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d11fac9fcf2bcb4dad272bcc4041202
+      internalID: 1224644975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_13
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028c87199d144274885edbc76133dd1e
+      internalID: -2000072481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc6d77cdd6176342ba40482dde406ce
+      internalID: -1411086501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_15
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1248
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfc2d3ec7dbd95489769d9339c316ec
+      internalID: -1604774776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7e4d8eb41bf0647b525f47418a207e
+      internalID: 1846692619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567790f4659e9a44c816c26511883206
+      internalID: 85122378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae310a0b642083d47a075c13f9a37add
+      internalID: 1790956360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070a0e52fd32bd241bcf81e0171b5a36
+      internalID: -1606108901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c10a549c6e77ab498c3c4d686874e18
+      internalID: -1628131524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b065596c6f55be44fa06e8ddc6aa271c
+      internalID: 1541632110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e579afa2abfcf45919977f435d99d8
+      internalID: -1129024773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_23
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 848
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d924220070533469e7ac4fa2821bbc
+      internalID: 685362466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e6179d8f633da4ba92a3220f1ef6a0
+      internalID: 1728974802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9620b0e6d4ec040b51e0db499549ae
+      internalID: -991852456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3189e45f0931a264486407022342ce56
+      internalID: 1330222593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_27
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b727ab43833edc42b05c309f336497c
+      internalID: 1265470710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16e2f149888584448ca8013e6b57659
+      internalID: -172129871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_29
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe7e561e5ff56449a5a23f7521e5036
+      internalID: 1160052271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_30
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccc269febcf85b438ca169e1011ab33
+      internalID: 946685472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_31
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 448
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c180fb1b2072f4389632489103c8ee
+      internalID: -272178759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed7ab2beb752924ab4d8abf44c0cbf5
+      internalID: 80395354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f95a985b31effc4aa978fdd7989f1cc
+      internalID: -2042421316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_34
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e9758da1acb27478ebe32f40856b73
+      internalID: -534366121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_35
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef05c5403fbce0349a32383304af2967
+      internalID: 165335448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26a1b13e0f05954f8bfe0101c57850c
+      internalID: 1555294843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_37
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11333a0e9f5b9a14d846bcfc37278edb
+      internalID: 1945394422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_38
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7ed04ff67e5b344a32145d3282e41f
+      internalID: 1221338237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITE_ADAM_WALK_39
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 48
+        width: 250
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c1c211de2b6634582f87cb9df5450e
+      internalID: 628704066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f0714780ffec9f3419e4743f9bc0f9dc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPRITE_ADAM_WALK_0: -191733204
+      SPRITE_ADAM_WALK_1: -1710500955
+      SPRITE_ADAM_WALK_10: 1368905319
+      SPRITE_ADAM_WALK_11: 959842882
+      SPRITE_ADAM_WALK_12: 1224644975
+      SPRITE_ADAM_WALK_13: -2000072481
+      SPRITE_ADAM_WALK_14: -1411086501
+      SPRITE_ADAM_WALK_15: -1604774776
+      SPRITE_ADAM_WALK_16: 1846692619
+      SPRITE_ADAM_WALK_17: 85122378
+      SPRITE_ADAM_WALK_18: 1790956360
+      SPRITE_ADAM_WALK_19: -1606108901
+      SPRITE_ADAM_WALK_2: 475492828
+      SPRITE_ADAM_WALK_20: -1628131524
+      SPRITE_ADAM_WALK_21: 1541632110
+      SPRITE_ADAM_WALK_22: -1129024773
+      SPRITE_ADAM_WALK_23: 685362466
+      SPRITE_ADAM_WALK_24: 1728974802
+      SPRITE_ADAM_WALK_25: -991852456
+      SPRITE_ADAM_WALK_26: 1330222593
+      SPRITE_ADAM_WALK_27: 1265470710
+      SPRITE_ADAM_WALK_28: -172129871
+      SPRITE_ADAM_WALK_29: 1160052271
+      SPRITE_ADAM_WALK_3: -1798850693
+      SPRITE_ADAM_WALK_30: 946685472
+      SPRITE_ADAM_WALK_31: -272178759
+      SPRITE_ADAM_WALK_32: 80395354
+      SPRITE_ADAM_WALK_33: -2042421316
+      SPRITE_ADAM_WALK_34: -534366121
+      SPRITE_ADAM_WALK_35: 165335448
+      SPRITE_ADAM_WALK_36: 1555294843
+      SPRITE_ADAM_WALK_37: 1945394422
+      SPRITE_ADAM_WALK_38: 1221338237
+      SPRITE_ADAM_WALK_39: 628704066
+      SPRITE_ADAM_WALK_4: -1549977272
+      SPRITE_ADAM_WALK_5: -260378283
+      SPRITE_ADAM_WALK_6: -411867530
+      SPRITE_ADAM_WALK_7: -1061941539
+      SPRITE_ADAM_WALK_8: 1136732683
+      SPRITE_ADAM_WALK_9: 257887316
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

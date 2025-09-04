@@ -19,12 +19,10 @@ public class AnimationCtrlMenu : MonoBehaviour
     [SerializeField] public GameObject btnOptions;
     [SerializeField] public GameObject btnExtras;
 
-    [Space(10)]
-    [SerializeField] private GameObject pressAnyKeyPanel;
 
     GameObject goSelect;
 
-    private Animator _an;
+    private Animator _ac;
 
     private Stack<MenuState> stateStack = new Stack<MenuState>();
     private MenuState currentState;
@@ -36,7 +34,7 @@ public class AnimationCtrlMenu : MonoBehaviour
 
     private void Start()
     {
-        _an = GetComponent<Animator>();
+        _ac = GetComponent<Animator>();
         goSelect = btnPlay;
         Invoke(nameof(ButtonSelect), 1);
     }
@@ -53,19 +51,19 @@ public class AnimationCtrlMenu : MonoBehaviour
                 break;
 
             case MenuState.Options:
-                _an?.SetTrigger(GO_TO_OPTIONS);
+                _ac?.SetTrigger(GO_TO_OPTIONS);
                 goSelect = null;
 
                 Invoke(nameof(InvokeShowLastTab), 0.75f);
                 break;
 
             case MenuState.Extras:
-                _an?.SetTrigger(GO_TO_EXTRAS);
+                _ac?.SetTrigger(GO_TO_EXTRAS);
                 goSelect = btnExtras;
                 break; 
 
             case MenuState.Play:
-                _an?.SetTrigger(GAMEPLAY);
+                _ac?.SetTrigger(GAMEPLAY);
                 break;
         }
 
@@ -90,12 +88,12 @@ public class AnimationCtrlMenu : MonoBehaviour
                 {
                     case MenuState.Extras:
                         goSelect = btnExtras;
-                        _an?.SetTrigger(FROM_EXTRAS_TO_MENU);
+                        _ac?.SetTrigger(FROM_EXTRAS_TO_MENU);
                         break;
 
                     case MenuState.Options:
                         goSelect = btnOptions;
-                        _an?.SetTrigger(FROM_OPTIONS_TO_MENU);
+                        _ac?.SetTrigger(FROM_OPTIONS_TO_MENU);
                         break;
                 }
 
@@ -105,18 +103,6 @@ public class AnimationCtrlMenu : MonoBehaviour
             else
             {
                 GoTo(previousState);
-            }
-        }
-    }
-
-    public void AnyKeyPressed()
-    {
-        if (pressAnyKeyPanel != null)
-        {
-            Animator anim = pressAnyKeyPanel.GetComponent<Animator>();
-            if (anim != null)
-            {
-                anim.SetTrigger(PRESS_ANY_KEY);
             }
         }
     }
@@ -141,5 +127,10 @@ public class AnimationCtrlMenu : MonoBehaviour
     public void OnNextScene()
     {
         SceneManager.LoadScene("Gameplay");
+    }
+
+    public void NextAnim()
+    {
+        _ac.Play("clip_Menu");
     }
 }

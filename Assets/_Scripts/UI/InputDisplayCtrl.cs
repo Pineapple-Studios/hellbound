@@ -2,159 +2,118 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using UnityEngine.InputSystem.Controls;
-using System.Linq;
+using TMPro;
+
+[System.Serializable]
+public class ControlDisplayData
+{
+    public InputActionReference InputAction;
+    public GameObject KeyboardHighlight;
+    public Image GamepadImage;
+    public string AnimatorTrigger;
+    public string ActionName;
+}
 
 public class InputDisplayCtrl : MonoBehaviour
 {
-    [System.Serializable]
-    public class KeyBinding
-    {
-        public string keyName;
-        public Image keyImage;
-    }
+    [Header("Input")]
+    [SerializeField] private InputActionAsset inputActions;
+    [SerializeField] private string actionMapName = "Player";
 
-    [Header("Sprites de Detecção de Input")]
-    [SerializeField] private Sprite imageKeyboard;
-    [SerializeField] private Sprite imageJoystick;
-    [SerializeField] private Image deviceDisplayImage;
+    [Header("Controles")]
+    [SerializeField] private List<ControlDisplayData> ControlDataList;
 
-    [Header("UI de Teclado")]
-    [SerializeField] private List<KeyBinding> keyboardBindings = new();
+    [Header("UI")]
+    [SerializeField] private TMP_Text ActionText;
 
-    [Header("UI de Mouse")]
-    public Image leftClickImage;
-    public Image rightClickImage;
-    public Image middleClickImage;
+    [Header("Animação")]
+    [SerializeField] private Animator CharacterAnimator;
 
-    [Header("UI de Joystick")]
-    public Image buttonSouthImage;
-    public Image buttonEastImage;
-    public Image dpadUpImage, dpadDownImage, dpadLeftImage, dpadRightImage;
-    public RectTransform leftStickVisual;
-    public RectTransform rightStickVisual;
+    [Header("Joystick")]
+    [SerializeField] private RectTransform leftStickVisual;
+    [SerializeField] private float stickMoveRadius = 50f;
 
-    [Header("Visual")]
-    [SerializeField] private float moveRadius = 50f;
-    public Color defaultColor = Color.white;
-    public Color activeColor = Color.yellow;
+    [Header("Cores")]
+    [SerializeField] private Color defaultColor = Color.white;
+    [SerializeField] private Color activeColor = Color.yellow;
 
-    private Dictionary<KeyControl, Image> keyToImage = new();
-    private bool isUsingKeyboard = true;
-
-    private bool GamepadWasUsed()
-    {
-        var g = Gamepad.current;
-        return g.buttonSouth.wasPressedThisFrame || g.buttonEast.wasPressedThisFrame ||
-               g.dpad.up.wasPressedThisFrame || g.dpad.down.wasPressedThisFrame ||
-               g.leftStick.ReadValue() != Vector2.zero || g.rightStick.ReadValue() != Vector2.zero;
-    }
+    private InputActionMap activeMap;
 
     private void Start()
     {
-        // Mapear teclas
-        foreach (var binding in keyboardBindings)
+        // Ativa o Action Map selecionado
+        if (inputActions != null)
         {
-            var control = Keyboard.current?.allControls
-            .FirstOrDefault(c => c.name.ToLower() == binding.keyName.ToLower() && c is KeyControl) as KeyControl;
-
-            if (control != null && binding.keyImage != null)
-                keyToImage[control] = binding.keyImage;
+            activeMap = inputActions.FindActionMap(actionMapName);
+            if (activeMap != null)
+            {
+                activeMap.Enable();
+                Debug.Log($"Action Map '{actionMapName}' ativado.");
+            }
+            else
+            {
+                Debug.LogWarning($"Action Map '{actionMapName}' não encontrado no InputActionAsset.");
+            }
         }
 
-        UpdateDeviceSprite(isUsingKeyboard);
+        // Ativa individualmente as ações de ControlDataList (precaução)
+        foreach (var data in ControlDataList)
+        {
+            if (data.InputAction != null && data.InputAction.action != null)
+            {
+                data.InputAction.action.Enable();
+            }
+        }
     }
 
     private void Update()
     {
-        DetectInputDevice();
-
-        UpdateKeyboardVisual();
-        UpdateMouseVisual();
-        UpdateGamepadVisual();
-        UpdateSticks();
-    }
-
-    private void DetectInputDevice()
-    {
-        if (Keyboard.current.anyKey.wasPressedThisFrame || Mouse.current.leftButton.wasPressedThisFrame)
+        foreach (var data in ControlDataList)
         {
-            if (!isUsingKeyboard)
+            if (data.InputAction == null || data.InputAction.action == null) continue;
+
+            bool isPressed = data.InputAction.action.IsPressed();
+
+            // DEBUG opcional
+            // Debug.Log($"{data.ActionName}: {(isPressed ? "pressionado" : "não pressionado")}");
+
+            // Ativa imagem azul sobre tecla
+            if (data.KeyboardHighlight != null)
             {
-                isUsingKeyboard = true;
-                UpdateDeviceSprite(true);
+                data.KeyboardHighlight.SetActive(isPressed);
+            }
+
+            // Muda cor do botão no joystick
+            if (data.GamepadImage != null)
+            {
+                data.GamepadImage.color = isPressed ? activeColor : defaultColor;
+            }
+
+            // Trigger animação e texto
+            if (isPressed)
+            {
+                if (CharacterAnimator && !string.IsNullOrEmpty(data.AnimatorTrigger))
+                {
+                    CharacterAnimator.SetTrigger(data.AnimatorTrigger);
+                }
+                else
+                {
+                    Debug.Log($"Animação '{data.AnimatorTrigger}' não executada (Animator não atribuído ou trigger vazio)");
+                }
+
+                if (ActionText)
+                    ActionText.text = data.ActionName;
             }
         }
-        else if (Gamepad.current != null && GamepadWasUsed())
-        {
-            if (isUsingKeyboard)
-            {
-                isUsingKeyboard = false;
-                UpdateDeviceSprite(false);
-            }
-        }
+
+        UpdateStickVisual();
     }
 
-    private void UpdateDeviceSprite(bool usingKeyboard)
+    private void UpdateStickVisual()
     {
-        if (deviceDisplayImage == null) return;
-        deviceDisplayImage.sprite = usingKeyboard ? imageKeyboard : imageJoystick;
-        deviceDisplayImage.SetNativeSize();
-    }
-
-    private void UpdateKeyboardVisual()
-    {
-        foreach (var pair in keyToImage)
-        {
-            pair.Value.color = pair.Key.isPressed ? activeColor : defaultColor;
-        }
-    }
-
-    private void UpdateMouseVisual()
-    {
-        if (Mouse.current == null) return;
-
-        if (leftClickImage)
-            leftClickImage.color = Mouse.current.leftButton.isPressed ? activeColor : defaultColor;
-
-        if (rightClickImage)
-            rightClickImage.color = Mouse.current.rightButton.isPressed ? activeColor : defaultColor;
-
-        if (middleClickImage)
-            middleClickImage.color = Mouse.current.middleButton.isPressed ? activeColor : defaultColor;
-    }
-
-    private void UpdateGamepadVisual()
-    {
-        if (Gamepad.current == null) return;
-
-        if (buttonSouthImage)
-            buttonSouthImage.color = Gamepad.current.buttonSouth.isPressed ? activeColor : defaultColor;
-
-        if (buttonEastImage)
-            buttonEastImage.color = Gamepad.current.buttonEast.isPressed ? activeColor : defaultColor;
-
-        if (dpadUpImage)
-            dpadUpImage.color = Gamepad.current.dpad.up.isPressed ? activeColor : defaultColor;
-        if (dpadDownImage)
-            dpadDownImage.color = Gamepad.current.dpad.down.isPressed ? activeColor : defaultColor;
-        if (dpadLeftImage)
-            dpadLeftImage.color = Gamepad.current.dpad.left.isPressed ? activeColor : defaultColor;
-        if (dpadRightImage)
-            dpadRightImage.color = Gamepad.current.dpad.right.isPressed ? activeColor : defaultColor;
-    }
-
-    private void UpdateSticks()
-    {
-        if (Gamepad.current == null) return;
+        if (Gamepad.current == null || leftStickVisual == null) return;
 
         Vector2 left = Gamepad.current.leftStick.ReadValue();
-        Vector2 right = Gamepad.current.rightStick.ReadValue();
-
-        if (leftStickVisual)
-            leftStickVisual.anchoredPosition = left * moveRadius;
-
-        if (rightStickVisual)
-            rightStickVisual.anchoredPosition = right * moveRadius;
+        leftStickVisual.anchoredPosition = left * stickMoveRadius;
     }
 }
