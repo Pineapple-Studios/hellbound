@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HB_Options_KeyboardMouse_Model07 1_0: 1213692284949095092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
