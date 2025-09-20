@@ -7,7 +7,7 @@ public class PlayerBullet : MonoBehaviour
     public static PlayerBullet Instance;
 
     [Header("DEBUG")]
-    [SerializeField] bool canDebug = false;
+    [SerializeField] private bool canDebug = false;
 
     [Space(10)]
     [Header("Input")]
@@ -24,6 +24,8 @@ public class PlayerBullet : MonoBehaviour
     private Camera mainCam;
     private bool _canShoot = true;
 
+    private PlayerAnimationController animController;
+
     private void Awake()
     {
         if (Instance == null) Instance = this;
@@ -33,6 +35,7 @@ public class PlayerBullet : MonoBehaviour
         lookAction = playerMap.FindAction("Look");
 
         mainCam = Camera.main;
+        animController = GetComponent<PlayerAnimationController>();
     }
 
     private void OnEnable()
@@ -55,13 +58,11 @@ public class PlayerBullet : MonoBehaviour
     void AimTowardsMouseOrStick()
     {
         Vector2 lookInput = lookAction.ReadValue<Vector2>();
-
         Vector2 aimDirection;
 
         if (Mouse.current != null && lookInput == Vector2.zero)
         {
             Vector3 mouseScreenPos = Mouse.current.position.ReadValue();
-            // Ajuste o z para a dist�ncia correta da c�mera:
             mouseScreenPos.z = Mathf.Abs(mainCam.transform.position.z);
             Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(mouseScreenPos);
             aimDirection = (mouseWorldPos - bulletOrigin.position);
@@ -87,13 +88,17 @@ public class PlayerBullet : MonoBehaviour
         Vector2 aimDirection = GetAimDirection();
         if (aimDirection == Vector2.zero) return;
 
+        // dispara trigger de ataque
+        animController.TriggerAttack();
+
         int shots = PlayerStats.Instance.projectilesPerShot;
-        float angleStep = 10f; // graus de separação
+        float angleStep = 10f;
 
         for (int i = 0; i < shots; i++)
         {
             float angle = -angleStep * (shots - 1) / 2f + i * angleStep;
-            Quaternion rotation = Quaternion.Euler(0, 0, Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg + angle);
+            Quaternion rotation = Quaternion.Euler(0, 0,
+                Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg + angle);
 
             GameObject bullet = Instantiate(bulletPrefab, bulletOrigin.position, rotation);
             bullet.GetComponent<Rigidbody2D>().linearVelocity = rotation * Vector2.right * bulletSpeed;
@@ -102,9 +107,10 @@ public class PlayerBullet : MonoBehaviour
             {
                 bulletScript.SetDamage(PlayerStats.Instance.damage);
             }
+
+            Destroy(bullet, timeToDestroy);
         }
     }
-
 
     private Vector2 GetAimDirection()
     {
@@ -113,9 +119,6 @@ public class PlayerBullet : MonoBehaviour
         mouseWorldPos.z = 0;
 
         Vector2 dir = (mouseWorldPos - bulletOrigin.position);
-
-        
-        
         return dir;
     }
 

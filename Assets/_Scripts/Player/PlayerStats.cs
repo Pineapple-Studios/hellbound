@@ -74,6 +74,8 @@ public class PlayerStats : MonoBehaviour
     public bool bloquearUpgradeAumentaVida = false;
     public bool bloquearAumentoDeVida = false;
 
+    private PlayerAnimationController animController;
+
     public float attackSpeed
     {
         get => _attackSpeed;
@@ -129,6 +131,8 @@ public class PlayerStats : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+
+        animController = FindAnyObjectByType<PlayerAnimationController>();
     }
 
     private void Start()
@@ -169,6 +173,7 @@ public class PlayerStats : MonoBehaviour
 
         // Aplica dano restante à vida
         Health -= remainingDamage;
+        animController.TriggerHit();
         Debug.Log($"Vida perdeu {remainingDamage}. Vida restante: {Health}");
 
         if (Health <= 0)
@@ -191,6 +196,8 @@ public class PlayerStats : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player morreu!");
+
+        animController.TriggerDeath();
 
         Time.timeScale = 0f;
 

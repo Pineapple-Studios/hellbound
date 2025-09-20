@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HB_OptionsMenu_Start_Btn 1_0: 1041861935013908006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

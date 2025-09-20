@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Qadro personagem controle_0: -8136168300540120210
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
