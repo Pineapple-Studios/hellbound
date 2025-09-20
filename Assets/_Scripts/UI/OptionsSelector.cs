@@ -28,7 +28,7 @@ public class OptionsSelector : MonoBehaviour
     private GameObject lastSelected;
 
     private enum Tab { Video, Audio, Control }
-    private static Tab lastOpenedTab = Tab.Audio;
+    private static Tab lastOpenedTab;
     private Tab currentTab;
 
     // Confirmação dupla apenas para sair do painel de controls
@@ -172,11 +172,20 @@ public class OptionsSelector : MonoBehaviour
     private void SelectCurrentTabButton()
     {
         if (currentTab == Tab.Video && btnVideo != null)
+        {
             EventSystem.current.SetSelectedGameObject(btnVideo);
+            pnlVideo?.SetActive(true);
+        }
         else if (currentTab == Tab.Audio && btnAudio != null)
+        {
             EventSystem.current.SetSelectedGameObject(btnAudio);
+            pnlAudio?.SetActive(true);
+        }
         else if (currentTab == Tab.Control && btnControl != null)
+        {
             EventSystem.current.SetSelectedGameObject(btnControl);
+            pnlControl?.SetActive(true);
+        }
     }
 
     public void HideAllTabs()
