@@ -7,12 +7,14 @@ public class PlayerAnimationController : MonoBehaviour
     // Parâmetros do Animator
     private const string VELOCITY_X = "velocityX";
     private const string VELOCITY_Y = "velocityY";
+    private const string JUMP = "isJumping";
     private const string ATTACK = "isAttacking"; // pode virar Trigger se preferir
+    private const string ATTACKB = "isAttacking_O";
 
     private void Awake()
     {
         if (animator == null)
-            animator = GetComponent<Animator>();
+            animator = GetComponentInChildren<Animator>();
     }
 
     /// <summary>
@@ -31,12 +33,18 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetFloat(VELOCITY_Y, speedY);
     }
 
+    public void SetJump(bool boolean)
+    {
+        animator.SetBool(JUMP, boolean);
+    }
+
     /// <summary>
     /// Ativa ataque (usando bool)
     /// </summary>
     public void TriggerAttack()
     {
-        animator.SetTrigger(ATTACK);
+        //animator.SetTrigger(ATTACK);
+        animator.SetBool(ATTACKB, true);
     }
 
     /// <summary>
@@ -58,8 +66,8 @@ public class PlayerAnimationController : MonoBehaviour
     /// <summary>
     /// Finaliza ataque (AnimationEvent no fim da animação)
     /// </summary>
-    //    public void EndAttack()
-    //    {
-    //        animator.SetBool(ATTACK, false);
-    //    }
+    public void EndAttack()
+    {
+        animator.SetBool(ATTACKB, false);
+    }
 }

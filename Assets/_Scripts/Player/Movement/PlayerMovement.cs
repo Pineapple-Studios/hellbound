@@ -71,7 +71,8 @@ public class PlayerMovement : MonoBehaviour
         HandleAnimations();
         HandleCoyoteTime();
 
-        //Debug.Log($"InputX: {_horizontalInput}, VelX: {rb.linearVelocity.x}, PosX: {rb.position.x}");
+        if (canDebug)
+            Debug.Log(_IsGrounded());
     }
 
     private void FixedUpdate()
@@ -79,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(_horizontalInput * moveSpeed, rb.linearVelocity.y);
         HandleFlip();
 
-        Debug.Log($"Simulated: {rb.simulated}, InputX: {_horizontalInput}, VelX: {rb.linearVelocity.x}, PosX: {rb.position.x}, BodyType: {rb.bodyType}");
+        //Debug.Log($"Simulated: {rb.simulated}, InputX: {_horizontalInput}, VelX: {rb.linearVelocity.x}, PosX: {rb.position.x}, BodyType: {rb.bodyType}");
     }
 
 
@@ -105,10 +106,14 @@ public class PlayerMovement : MonoBehaviour
         if (_IsGrounded())
         {
             _coyoteTimeCounter = coyoteTime;
+            //animController.SetJumpVelocity(0);
+            animController.SetJump(false);
         }
         else
         {
             _coyoteTimeCounter -= Time.deltaTime;
+            //animController.SetJumpVelocity(rb.linearVelocity.y);
+            animController.SetJump(true);
         }
     }
 
@@ -119,14 +124,14 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             _coyoteTimeCounter = 0f;
 
-            animController.SetJumpVelocity(rb.linearVelocity.y);
+            //animController.SetJumpVelocity(rb.linearVelocity.y);
+            animController.SetJump(true);
         }
 
         if (context.canceled && rb.linearVelocity.y > 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0);
-
-            animController.SetJumpVelocity(rb.linearVelocity.y);
+            animController.SetJump(true);
         }
     }
 
