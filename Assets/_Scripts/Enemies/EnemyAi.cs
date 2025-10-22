@@ -6,15 +6,22 @@ public class EnemyAi : MonoBehaviour
     public static EnemyAi instance;
 
     [Header("Config")]
-    [SerializeField] public EnemySO enemySO;
+    [SerializeField]
+    public EnemySO enemySO;
 
     [Header("Debug")]
-    [SerializeField] private bool isRanged = true;
+    [SerializeField]
+    private bool isRanged = true;
 
     [Header("Shoot (for ranged enemies)")]
-    [SerializeField] private float timeToDestroy = 10;
-    [SerializeField] private float cooldown = 1;
-    [SerializeField] public float damageShoot = 10;
+    [SerializeField]
+    private float timeToDestroy = 10;
+
+    [SerializeField]
+    private float cooldown = 1;
+
+    [SerializeField]
+    public float damageShoot = 10;
 
     private GameObject player;
     protected Transform trPlayer;
@@ -30,7 +37,6 @@ public class EnemyAi : MonoBehaviour
     {
         if (instance == null)
             instance = this;
-
 
         player = GameObject.Find("Player");
         trPlayer = player.transform;
@@ -66,7 +72,8 @@ public class EnemyAi : MonoBehaviour
 
     protected void ChasePlayer(float stopDistance, float speed)
     {
-        if (trPlayer == null) return;
+        if (trPlayer == null)
+            return;
 
         float dist = Vector2.Distance(transform.position, trPlayer.position);
         if (dist > stopDistance)
@@ -115,7 +122,8 @@ public class EnemyAi : MonoBehaviour
             spriteRenderer.color.r,
             spriteRenderer.color.g,
             spriteRenderer.color.b,
-            Mathf.Pow(health / enemySO.healthMax, 0.7f));
+            Mathf.Pow(health / enemySO.healthMax, 0.7f)
+        );
 
         if (health <= 0)
             Destroy(gameObject);
@@ -145,14 +153,20 @@ public class EnemyAi : MonoBehaviour
         for (int i = 0; i < projectiles; i++)
         {
             float angle = i * angleStep;
-            Vector2 dir = new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad));
+            Vector2 dir = new Vector2(
+                Mathf.Cos(angle * Mathf.Deg2Rad),
+                Mathf.Sin(angle * Mathf.Deg2Rad)
+            );
 
-            GameObject bullet = Instantiate(enemySO.bullet_prefab, transform.position, Quaternion.identity);
+            GameObject bullet = Instantiate(
+                enemySO.bullet_prefab,
+                transform.position,
+                Quaternion.identity
+            );
             bullet.GetComponent<Rigidbody2D>().AddForce(dir * 8f, ForceMode2D.Impulse);
             Destroy(bullet, 3f);
         }
     }
-
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -163,7 +177,7 @@ public class EnemyAi : MonoBehaviour
 
             if (!isRanged)
             {
-                Debug.Log("E1 foi destruído após encostar no player.");
+                Debug.Log("E1 foi destruï¿½do apï¿½s encostar no player.");
                 Destroy(gameObject);
             }
         }
